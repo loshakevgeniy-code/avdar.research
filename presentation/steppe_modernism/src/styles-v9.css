@@ -159,3 +159,22 @@ a{color:inherit;text-decoration:none;border-bottom:1px solid var(--copper)}
 .channel-bottom strong{font-size:23px}
 .channel-bottom p{font-size:22px;line-height:1.25;color:#45544a;margin-top:6px}
 .channel-bottom a{display:inline-block;font-size:18px;margin-top:5px;margin-right:20px}
+.d2c-heading span{display:block;color:var(--copper);font-size:20px;font-weight:700;letter-spacing:.075em;margin-bottom:7px}
+.d2c-heading h2{font-size:70px}
+.d2c-heading small{font-family:var(--serif);font-size:34px;font-weight:400;letter-spacing:0;color:var(--muted);margin-left:18px}
+.d2c-layout{display:grid;grid-template-columns:minmax(0,1fr) 810px;gap:74px;margin-top:30px;align-items:start}
+.d2c-layout.d2c-reverse{grid-template-columns:810px minmax(0,1fr)}
+.d2c-story{min-width:0}
+.d2c-main-number{border-top:2px solid var(--ink);padding-top:14px}
+.d2c-main-number strong{display:block;font-family:var(--serif);font-size:76px;font-weight:500;line-height:1.1;letter-spacing:-.04em;white-space:nowrap}
+.d2c-main-number p{font-size:24px;line-height:1.25;color:var(--muted);margin-top:4px}
+.d2c-two-numbers{display:grid;grid-template-columns:1fr 1fr;gap:34px;border-top:1px solid var(--line);padding-top:20px;margin-top:27px}
+.d2c-two-numbers strong{display:block;font-family:var(--serif);font-size:43px;font-weight:500;line-height:1.15;white-space:nowrap}
+.d2c-two-numbers span{display:block;font-size:20px;line-height:1.25;color:var(--muted);margin-top:7px}
+.d2c-explanation{font-size:26px;line-height:1.28;margin-top:31px}
+.d2c-caution{border-top:1px solid var(--line);padding-top:18px;margin-top:27px;font-size:20px;line-height:1.28;color:var(--muted)}
+.d2c-figure{min-width:0}
+.d2c-figure .image-link{display:block;height:506px;overflow:hidden;background:#fff}
+.d2c-figure img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}
+.d2c-figure figcaption{font-size:20px;line-height:1.25;color:var(--muted);margin-top:12px}
+.d2c-figure figcaption a{font-size:19px;margin-left:12px;white-space:nowrap}

@@ -207,6 +207,39 @@ for (const code of ['DE','NL','PL','DK','BE','SE','FI']) {
   channelsSlide(data);
 }
 
+const quinceStatement = 'https://www.prnewswire.com/news-releases/quince-raises-500m-series-e-resulting-in-10-1b-valuation-to-accelerate-the-manufacturer-to-consumer-platform-302710298.html';
+const quinceSales = 'https://www.linkedin.com/posts/onequince_quince-retail-innovation-activity-7488276080395464704-k9yB';
+const quinceProduct = 'https://www.quince.com/women/cashmere/cashmere-crewneck-sweater?color=heather-grey';
+const soxsOrders = 'https://nl.linkedin.com/posts/soxsco_500000-momenten-van-warmte-in-10-jaar-tijd-activity-7373615426347503617-Pjlq';
+const soxsInterview = 'https://www.snn.nl/raak-geinspireerd/wij-verkopen-geen-sokken-maar-warmte';
+const soxsStore = 'https://soxs.co/de/';
+
+slide('', `
+  <div class="d2c-heading"><span>УСПЕШНЫЕ D2C БРЕНДЫ</span><h2>Quince <small>США</small></h2></div>
+  <div class="d2c-layout">
+    <div class="d2c-story">
+      <div class="d2c-main-number"><strong>более $2 млрд</strong><p>продажи за последние 12 месяцев к июлю 2026 года</p></div>
+      <div class="d2c-two-numbers"><p><strong>более $1 млрд</strong><span>выручка за 2025 год</span></p><p><strong>$50</strong><span>цена первого товара: кашемирового свитера</span></p></div>
+      <p class="d2c-explanation">Quince начал с кашемирового свитера и вырос до более чем 100 категорий. На карточке товара видны материал, отзывы, доставка и возврат.</p>
+      <p class="d2c-caution">$10,1 млрд — оценка компании после привлечения инвестиций, не продажи. Эти цифры относятся ко всему бизнесу, а не только к кашемиру или европейским рынкам.</p>
+    </div>
+    <figure class="d2c-figure"><a class="image-link" href="${quinceProduct}"><img src="../../../research_assets/reference_screenshots/d2c_cases/quince_cashmere_site.png" alt="Quince: карточка кашемирового свитера за 50 долларов"></a><figcaption>Карточка товара на сайте Quince ${cite(quinceProduct,'Открыть сайт ↗')}</figcaption></figure>
+  </div>
+`, `${cite(quinceStatement,'Quince: выручка и оценка')} · ${cite(quinceSales,'Quince: продажи за 12 месяцев')} · ${cite(quinceProduct,'сайт бренда')} · Числа сообщены компанией, не подтверждены аудитом.`, 'd2c-slide');
+
+slide('', `
+  <div class="d2c-heading"><span>УСПЕШНЫЕ D2C БРЕНДЫ</span><h2>SOXS <small>Нидерланды</small></h2></div>
+  <div class="d2c-layout d2c-reverse">
+    <figure class="d2c-figure"><a class="image-link" href="${soxsStore}"><img src="../../../research_assets/reference_screenshots/d2c_cases/soxs_wool_socks_site.png" alt="SOXS: главная страница немецкого интернет-магазина"></a><figcaption>Немецкая версия сайта SOXS ${cite(soxsStore,'Открыть сайт ↗')}</figcaption></figure>
+    <div class="d2c-story">
+      <div class="d2c-main-number"><strong>500 000 заказов</strong><p>за 10 лет, по заявлению SOXS</p></div>
+      <div class="d2c-two-numbers"><p><strong>100 000 пар</strong><span>шерстяных носков продано в 2022 году</span></p><p><strong>14 стран</strong><span>магазины с товарами SOXS в 2023 году</span></p></div>
+      <p class="d2c-explanation">Собственный сайт продаёт носки и персонализацию. Сооснователь также называет магазины и корпоративные подарки.</p>
+      <p class="d2c-caution">SOXS сочетает D2C, розницу и корпоративные продажи. Все 500 000 заказов нельзя приписать сайту; публичной выручки бренд не раскрыл.</p>
+    </div>
+  </div>
+`, `${cite(soxsOrders,'SOXS: 500 000 заказов')} · ${cite(soxsInterview,'интервью сооснователя')} · ${cite(soxsStore,'сайт бренда')} · Числа заказов и пар сообщены брендом.`, 'd2c-slide');
+
 function prioritySlide(data, title, lead, reason, condition) {
   slide(title, `
     <p class="priority-lead">${lead}</p>
