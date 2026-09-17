@@ -1,0 +1,1581 @@
+{
+  "title": "Avdar Market — social evidence manifest",
+  "snapshot_date": "2026-09-15",
+  "language": "ru",
+  "summary": {
+    "instagram_references": 16,
+    "tiktok_references": 16,
+    "instagram_screenshot_sets": 8,
+    "tiktok_fresh_metric_records": 16,
+    "tiktok_screenshot_sets": 8,
+    "presentation_priority_instagram_added_this_pass": [
+      "IG-001",
+      "IG-005",
+      "IG-007",
+      "IG-008",
+      "IG-012",
+      "IG-015"
+    ],
+    "tiktok_priority_ids": [
+      "TT12",
+      "TT01",
+      "TT03",
+      "TT02",
+      "TT04",
+      "TT13",
+      "TT15",
+      "TT08"
+    ]
+  },
+  "evidence_policy": {
+    "public_metrics_mean": "Visible engagement on the source at the snapshot time only.",
+    "public_metrics_do_not_mean": "Sales, attributed conversion, CAC or ROAS.",
+    "rights": "Screenshots are research evidence with source attribution. Do not reuse competitors' creative in advertising. Before public distribution outside a client research deck, confirm the applicable quotation/fair-use rules and any creator permissions.",
+    "claims": "Competitor product and sustainability claims remain the competitor's claims. Avdar may reuse only a creative mechanism; any material, origin, care, scarcity or performance statement needs SKU-level proof."
+  },
+  "tiktok_rankings": {
+    "by_views": [
+      {
+        "id": "TT12",
+        "account": "Kyana Sue Powers",
+        "value": 12800000
+      },
+      {
+        "id": "TT01",
+        "account": "Miranda’s World",
+        "value": 693800
+      },
+      {
+        "id": "TT13",
+        "account": "Americana Pipedream Apparel",
+        "value": 574100
+      },
+      {
+        "id": "TT03",
+        "account": "OFT Stuttgart",
+        "value": 316100
+      },
+      {
+        "id": "TT02",
+        "account": "Robyn",
+        "value": 237700
+      },
+      {
+        "id": "TT14",
+        "account": "Zafira",
+        "value": 91200
+      },
+      {
+        "id": "TT04",
+        "account": "Izzyinthetrench",
+        "value": 90800
+      },
+      {
+        "id": "TT11",
+        "account": "Laura · elle_macrame",
+        "value": 66700
+      }
+    ],
+    "by_save_rate_pct": [
+      {
+        "id": "TT03",
+        "account": "OFT Stuttgart",
+        "value": 1.692
+      },
+      {
+        "id": "TT04",
+        "account": "Izzyinthetrench",
+        "value": 1.461
+      },
+      {
+        "id": "TT09",
+        "account": "S4Supply Europe",
+        "value": 1.209
+      },
+      {
+        "id": "TT02",
+        "account": "Robyn",
+        "value": 1.182
+      },
+      {
+        "id": "TT10",
+        "account": "Holi.Zac × MARO",
+        "value": 0.539
+      },
+      {
+        "id": "TT05",
+        "account": "Burberry Outlet Cabazon",
+        "value": 0.482
+      },
+      {
+        "id": "TT06",
+        "account": "trektwinz",
+        "value": 0.468
+      },
+      {
+        "id": "TT16",
+        "account": "Art by AnnMarie",
+        "value": 0.424
+      }
+    ],
+    "by_visible_interaction_rate_pct": [
+      {
+        "id": "TT04",
+        "account": "Izzyinthetrench",
+        "value": 13.792
+      },
+      {
+        "id": "TT02",
+        "account": "Robyn",
+        "value": 12.975
+      },
+      {
+        "id": "TT08",
+        "account": "solekind",
+        "value": 6.097
+      },
+      {
+        "id": "TT05",
+        "account": "Burberry Outlet Cabazon",
+        "value": 5.174
+      },
+      {
+        "id": "TT16",
+        "account": "Art by AnnMarie",
+        "value": 5.064
+      },
+      {
+        "id": "TT07",
+        "account": "lulu",
+        "value": 4.72
+      },
+      {
+        "id": "TT03",
+        "account": "OFT Stuttgart",
+        "value": 4.116
+      },
+      {
+        "id": "TT09",
+        "account": "S4Supply Europe",
+        "value": 3.787
+      }
+    ],
+    "caution": "Rates are descriptive only: post age, paid distribution, audience geography and denominator quality differ across sources."
+  },
+  "instagram": [
+    {
+      "id": "IG-001",
+      "product_group": "Бренд / общий",
+      "product_or_sku": "Кашемир и происхождение",
+      "market": "Мировой ориентир",
+      "platform": "Instagram",
+      "brand_or_account": "GOBI × The HU",
+      "format": "Короткое видео",
+      "why_selected": "Культура + происхождение с большим видимым охватом",
+      "first_screen_or_two_seconds": "Музыканты в камеру → пастухи → волокно → руки → поколения",
+      "visual_device": "Коллаборация знаменитостей + документальная цепочка",
+      "proof_or_trust": "Лица, процесс, Монголия, юбилей бренда",
+      "cta_and_path": "Имиджевый юбилей; без прямой продажи",
+      "visible_metrics_sheet_snapshot": "40,4 тыс. просмотров · 1 104 отметки · 10 комментариев · 18 репостов",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Соединить происхождение, людей и последовательность производства",
+      "direct_url": "https://www.instagram.com/thehuofficial/reel/Dc7oP40hALi/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Охват усилен аудиторией The HU; не доказательство продаж; контент не переиспользовать без разрешения",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/thehuofficial/reel/Dc7oP40hALi/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-001_gobi_thehu_origin_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-001_gobi_thehu_origin_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: first frame visible; 10 comments and 18 reposts visible; like/view counts hidden on this surface.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-002",
+      "product_group": "Бренд / общий",
+      "product_or_sku": "Полный ассортимент кашемира",
+      "market": "Мировой ориентир",
+      "platform": "Instagram",
+      "brand_or_account": "GOBI Cashmere",
+      "format": "Профиль",
+      "why_selected": "Системный визуальный язык категории",
+      "first_screen_or_two_seconds": "Степь, пастухи, волокно, люди, мода",
+      "visual_device": "Чередование происхождения и образов",
+      "proof_or_trust": "65,2 тыс. подписчиков; плотная публикация",
+      "cta_and_path": "Ссылка в профиле → магазин",
+      "visible_metrics_sheet_snapshot": "65,2 тыс. подписчиков",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Построить повторяемую систему: происхождение / фактура / образ / товар",
+      "direct_url": "https://www.instagram.com/gobicashmere/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Подписчики и частота не равны эффективности",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/gobicashmere/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-003",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Стилизация шарфа",
+      "market": "Германия",
+      "platform": "Instagram",
+      "brand_or_account": "PURSCHOEN",
+      "format": "Короткое видео",
+      "why_selected": "Товар меняет образ за секунды",
+      "first_screen_or_two_seconds": "Модель в полный рост; шарф как капюшон поверх пальто",
+      "visual_device": "Чистый фон + движение и трансформация",
+      "proof_or_trust": "HANDMADE · FAIR · UNIQUE",
+      "cta_and_path": "Мягкий призыв к товару",
+      "visible_metrics_sheet_snapshot": "1 898 просмотров · 26 отметок · 2 комментария",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Показать 3 способа ношения одним непрерывным движением",
+      "direct_url": "https://www.instagram.com/purschoen/reel/DdHKxhPlfGU/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Небольшой охват; claims требуют доказательств; контент не копировать. Первый кадр сохранён для внутреннего анализа и презентации со ссылкой на источник.",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/purschoen/reel/DdHKxhPlfGU/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-003_purschoen_cashmere_scarf_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-003_purschoen_cashmere_scarf_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: first frame visible; 2 comments visible; total likes/views hidden on this surface.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-004",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Сезонный переход",
+      "market": "Мировой ориентир",
+      "platform": "Instagram",
+      "brand_or_account": "Nordic Socks",
+      "format": "Короткое видео",
+      "why_selected": "Понятный переход от лета к холоду",
+      "first_screen_or_two_seconds": "Сандалии → организованный ящик носков → прохладная погода",
+      "visual_device": "Контраст сезона + удовлетворяющая организация",
+      "proof_or_trust": "Товар и сезон считываются без объяснения",
+      "cta_and_path": "Подготовиться к сезону",
+      "visible_metrics_sheet_snapshot": "5 290 просмотров · 47 отметок · 4–6 комментариев",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снять переход «первые холода» и раскрытие комплекта",
+      "direct_url": "https://www.instagram.com/nordicsocks/reel/DdBKZEkIjci/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Метрики динамичны; нет данных о продажах",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/nordicsocks/reel/DdBKZEkIjci/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-005",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Подарочные наборы",
+      "market": "Мировой ориентир",
+      "platform": "Instagram",
+      "brand_or_account": "Nordic Socks",
+      "format": "Карусель",
+      "why_selected": "Сильная архитектура подарочного ассортимента",
+      "first_screen_or_two_seconds": "Упаковка + типы получателя: classic, dress, hiking, sensitive",
+      "visual_device": "Один набор — несколько задач покупателя",
+      "proof_or_trust": "Готовая подарочная упаковка",
+      "cta_and_path": "Подарок → магазин",
+      "visible_metrics_sheet_snapshot": "Показатели не доступны",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Собрать 3 роли набора и показать упаковку первым кадром",
+      "direct_url": "https://www.instagram.com/nordicsocks/p/Dc0cfPxAIiR/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Карусель несопоставима с видео по просмотрам",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/nordicsocks/p/Dc0cfPxAIiR/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-005_nordic_socks_gift_carousel_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-005_nordic_socks_gift_carousel_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: gift carousel first card visible; 1 comment visible; total likes hidden on this surface.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-006",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Шерстяные пледы и предложение",
+      "market": "Дания",
+      "platform": "Instagram",
+      "brand_or_account": "Uldplaiden",
+      "format": "Короткое видео",
+      "why_selected": "Локальный прямой ответ",
+      "first_screen_or_two_seconds": "Основатель на складе, флаги, конфетти, крупные субтитры",
+      "visual_device": "Лицо бренда + простая акция",
+      "proof_or_trust": "Скидка, доставка 1–3 дня, бесплатная доставка",
+      "cta_and_path": "Купи 2+ → −20%",
+      "visible_metrics_sheet_snapshot": "178 просмотров · 2 отметки · 0 комментариев",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Взять локальный оффер и ясные субтитры, но переснять эстетичнее",
+      "direct_url": "https://www.instagram.com/uldplaiden/reel/DdO5I9TDNSC/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Слабый количественный сигнал; полезен только формат",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/uldplaiden/reel/DdO5I9TDNSC/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-007",
+      "product_group": "Бренд / общий",
+      "product_or_sku": "Образовательная серия о шерсти",
+      "market": "Дания",
+      "platform": "Instagram",
+      "brand_or_account": "Uldplaiden",
+      "format": "Короткое видео",
+      "why_selected": "Дешёвый воспроизводимый образовательный формат",
+      "first_screen_or_two_seconds": "Основатель с микрофоном дома; крупный заголовок",
+      "visual_device": "Серийность + лицо бренда",
+      "proof_or_trust": "Следующий выпуск обещан заранее",
+      "cta_and_path": "Подписка на мини-сериал",
+      "visible_metrics_sheet_snapshot": "0 комментариев; прочие показатели не показаны",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Запустить серию «материал без мифов» из 5 коротких выпусков",
+      "direct_url": "https://www.instagram.com/uldplaiden/reel/DPBPmHpja2x/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Не показатель эффективности; контент не копировать",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/uldplaiden/reel/DPBPmHpja2x/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-007_uldplaiden_education_reel_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-007_uldplaiden_education_reel_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: educational Reel first frame visible; page states there are no comments; total likes/views hidden.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-008",
+      "product_group": "Бренд / общий",
+      "product_or_sku": "Монголия · закулисье съёмки",
+      "market": "Польша",
+      "platform": "Instagram",
+      "brand_or_account": "Mongolian.pl",
+      "format": "Короткое видео",
+      "why_selected": "Дешёвый тизер новой коллекции",
+      "first_screen_or_two_seconds": "Телефон снимает экран с контактными листами",
+      "visual_device": "Закулисье + текст «Осень–Зима»",
+      "proof_or_trust": "Реальная съёмка и новая коллекция",
+      "cta_and_path": "Познакомиться с первыми кадрами",
+      "visible_metrics_sheet_snapshot": "1 176 просмотров · 19 отметок · 0–1 комментарий",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Использовать материалы со съёмки как быстрый тизер до запуска",
+      "direct_url": "https://www.instagram.com/mongolian.sklep/reel/Db70tGAgRxE/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Низкий охват; важна производственная экономичность формата",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/mongolian.sklep/reel/Db70tGAgRxE/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-008_mongolian_bts_reel_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-008_mongolian_bts_reel_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: BTS first frame visible; 1 comment visible; total likes/views hidden on this surface.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-009",
+      "product_group": "Шали",
+      "product_or_sku": "Мягкий трикотаж и сезон",
+      "market": "Финляндия",
+      "platform": "Instagram",
+      "brand_or_account": "Balmuir",
+      "format": "Короткое видео",
+      "why_selected": "Северный премиальный ритм",
+      "first_screen_or_two_seconds": "Медленное видео в полный рост; тёплая нейтральная палитра",
+      "visual_device": "Мягкое движение и тихая роскошь",
+      "proof_or_trust": "Сезон и материал переданы без текста",
+      "cta_and_path": "Имиджевое знакомство",
+      "visible_metrics_sheet_snapshot": "3 637 просмотров · 0 комментариев",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снять медленное движение ткани и один цельный образ",
+      "direct_url": "https://www.instagram.com/balmuir/reel/DclodRYhugm/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Отметки скрыты; нет коммерческого сигнала",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/balmuir/reel/DclodRYhugm/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-010",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Шерсть/кашемир в интерьере",
+      "market": "Финляндия",
+      "platform": "Instagram",
+      "brand_or_account": "Balmuir",
+      "format": "Карусель",
+      "why_selected": "Сильнейший интерьерный масштаб пледа",
+      "first_screen_or_two_seconds": "Светлый интерьер; плед на диване; подушки в тон",
+      "visual_device": "Показывает размер, фактуру и роль в пространстве",
+      "proof_or_trust": "Премиальный контекст и целостная стилизация",
+      "cta_and_path": "Редакционное знакомство",
+      "visible_metrics_sheet_snapshot": "1 комментарий; отметки скрыты",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снять плед в комнате, на человеке и крупно в одной серии",
+      "direct_url": "https://www.instagram.com/balmuir/p/Dc5X_IBjSlL/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Не показатель эффективности; права принадлежат автору. Два кадра сохранены для внутреннего анализа и презентации со ссылкой на источник.",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/balmuir/p/Dc5X_IBjSlL/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-010_balmuir_throw_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-010_balmuir_throw_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: throw carousel first card visible; 1 comment visible; total likes hidden on this surface.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-011",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Шерстяной плед и осенний ритуал",
+      "market": "Дания",
+      "platform": "Instagram",
+      "brand_or_account": "Silkeborg Uldspinderi",
+      "format": "Короткое видео",
+      "why_selected": "Уютный сценарий использования",
+      "first_screen_or_two_seconds": "Гостиная, плед, чашка, осенний свет",
+      "visual_device": "Ритуал вместо предметной демонстрации",
+      "proof_or_trust": "Интерьер и сезон создают правдоподобие",
+      "cta_and_path": "Имиджевое знакомство",
+      "visible_metrics_sheet_snapshot": "1 807 просмотров · 32 отметки · 1 репост",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Связать плед с ритуалом: утро, чтение, вечер",
+      "direct_url": "https://www.instagram.com/silkeborg_uldspinderi/reel/DPynErADA15/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Небольшой охват; нет CTA и продаж",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/silkeborg_uldspinderi/reel/DPynErADA15/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-012",
+      "product_group": "Перчатки",
+      "product_or_sku": "Перчатки + шарф + головной убор",
+      "market": "Германия",
+      "platform": "Instagram",
+      "brand_or_account": "ROECKL",
+      "format": "Короткое видео",
+      "why_selected": "Один образ продаёт несколько фактур",
+      "first_screen_or_two_seconds": "Крупный план руки у лица; бордовый и paisley",
+      "visual_device": "Жёсткий свет + тактильный крупный план",
+      "proof_or_trust": "Несколько материалов в одном образе",
+      "cta_and_path": "Знакомство с коллекцией",
+      "visible_metrics_sheet_snapshot": "418 просмотров · 27 отметок · 1 репост",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Собрать перекрёстную продажу через один цельный образ",
+      "direct_url": "https://www.instagram.com/roeckl_official/reel/DdPFHFcgCrk/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Слабый охват; ценен визуальный приём",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/roeckl_official/reel/DdPFHFcgCrk/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-012_roeckl_cross_sell_reel_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-012_roeckl_cross_sell_reel_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: cross-sell Reel first frame visible; 1 repost visible; total likes/views hidden on this surface.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-013",
+      "product_group": "Перчатки",
+      "product_or_sku": "Архив ремесла 1937",
+      "market": "Германия",
+      "platform": "Instagram",
+      "brand_or_account": "ROECKL",
+      "format": "Архивный пост",
+      "why_selected": "Сильное доказательство непрерывности ремесла",
+      "first_screen_or_two_seconds": "Чёрно-белая ручная раскройка перчатки",
+      "visual_device": "Архив вместо рекламного обещания",
+      "proof_or_trust": "Конкретный год и реальный процесс",
+      "cta_and_path": "История бренда",
+      "visible_metrics_sheet_snapshot": "Показатели не зафиксированы",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Искать реальные архивы, мастеров и этапы производства Avdar",
+      "direct_url": "https://www.instagram.com/roeckl_official/p/Dc1UNykI3av/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Нужны собственные права на архивы",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/roeckl_official/p/Dc1UNykI3av/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-014",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Драпировка длинного шарфа",
+      "market": "Мировой ориентир",
+      "platform": "Instagram",
+      "brand_or_account": "Feine Cashmere",
+      "format": "Короткое видео",
+      "why_selected": "Движение объясняет длину и прозрачность",
+      "first_screen_or_two_seconds": "Белый образ + длинный графитовый шарф",
+      "visual_device": "Контраст, бесшовный фон, движение",
+      "proof_or_trust": "Форма и драпировка видны сразу",
+      "cta_and_path": "Сезонный товар",
+      "visible_metrics_sheet_snapshot": "0 комментариев · 1 репост; просмотры скрыты",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снимать длину, прозрачность и край в движении",
+      "direct_url": "https://www.instagram.com/feinecashmere/reel/DdQ4-nFO-iO/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Рынок не подтверждён; не показатель эффективности",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/feinecashmere/reel/DdQ4-nFO-iO/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    },
+    {
+      "id": "IG-015",
+      "product_group": "Плед из яка",
+      "product_or_sku": "Образование о материале яка",
+      "market": "Германия",
+      "platform": "Instagram",
+      "brand_or_account": "MÄRZ München",
+      "format": "Статичный пост / карусель",
+      "why_selected": "Сильная типографика и рискованный тезис",
+      "first_screen_or_two_seconds": "Чёрно-белая макросъёмка; крупный текст «мягче кашемира»",
+      "visual_device": "Материальный тезис как главный визуал",
+      "proof_or_trust": "Фактура крупно; доказательство тезиса не видно",
+      "cta_and_path": "Образование о материале",
+      "visible_metrics_sheet_snapshot": "1 комментарий; отметки скрыты",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Взять макро и крупный тезис, но заменить на доказуемый факт",
+      "direct_url": "https://www.instagram.com/maerzmuenchen/p/DQoxT5TDMnQ/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "«Мягче кашемира» нельзя использовать без подтверждения конкретного товара",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/maerzmuenchen/p/DQoxT5TDMnQ/"
+      },
+      "fresh_capture": {
+        "status": "captured from the logged-in official Instagram page",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-015_maerz_yak_material_carousel_desktop.png",
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/IG-015_maerz_yak_material_carousel_post_crop.png"
+        ],
+        "current_visible_ui_confirmation": "Fresh logged-in page: yak-material carousel first card and the claim ‘SOFTER THAN CASHMERE’ visible; 1 comment visible; total likes hidden.",
+        "interaction_policy": "read-only navigation; no likes, follows, comments, saves or messages"
+      }
+    },
+    {
+      "id": "IG-016",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Ручные носки крупным планом",
+      "market": "Мировой ориентир",
+      "platform": "Instagram",
+      "brand_or_account": "Alena Neustroeva",
+      "format": "Короткое видео",
+      "why_selected": "Очень сильный отклик на тактильный крупный план",
+      "first_screen_or_two_seconds": "Носки на ногах, меховая поверхность, крупная надпись",
+      "visual_device": "Экстремальная фактура + необычное название",
+      "proof_or_trust": "Ручная работа считывается визуально",
+      "cta_and_path": "Заказ в Direct",
+      "visible_metrics_sheet_snapshot": "303 комментария · 240 репостов; просмотры скрыты",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Проверить механику «макро + прозвище изделия» на европейском тоне",
+      "direct_url": "https://www.instagram.com/alena__neustroeva/reel/DdFKUqdxvAi/",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Вне целевых рынков; аудитория и язык несопоставимы; не доказательство продаж",
+      "url_verification": {
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.instagram.com/alena__neustroeva/reel/DdFKUqdxvAi/"
+      },
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_paths": []
+      }
+    }
+  ],
+  "tiktok": [
+    {
+      "id": "TT01",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Шарф · состав в ролике не подтверждён",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Miranda’s World",
+      "format": "Короткое видео · 24 секунды",
+      "why_selected": "Большой охват и нативная тактильная демонстрация в рекламном UGC",
+      "first_screen_or_two_seconds": "Крупный текст «The softest scarf»; шарф сразу показывают вблизи",
+      "visual_device": "Тактильный крупный план + разговорная рекомендация автора",
+      "proof_or_trust": "Публичная отметка isAd=true; заявлены мягкость и ощущение кашемира",
+      "cta_and_path": "Прямого призыва нет; интерес ведёт к аккаунту автора",
+      "visible_metrics_sheet_snapshot": "693 800 просмотров · 4 232 отметки · 24 комментария · 200 репостов · 1 054 сохранения",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Проверить связку «тактильный макро-кадр + одно обещание мягкости»; утверждать состав только по спецификации Avdar",
+      "direct_url": "https://www.tiktok.com/@mirandasdreamworld/video/7560659434997959958",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Ролик говорит «feels like cashmere», но состав не подтверждён; метрики не равны продажам; переиспользование требует разрешения",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@mirandasdreamworld/video/7560659434997959958",
+        "video_id": "7560659434997959958",
+        "author": "mirandasdreamworld",
+        "description": "Feels like cashmere! Scarf season is just about here and these scarves are so soft and cosy. #scarfseason #winterscarf #scarf #scarves #creatorsearchinsights ",
+        "created_at": "2025-10-13T11:00:10.000Z",
+        "duration_seconds": 24,
+        "visible_metrics": {
+          "views": 693800,
+          "likes": 4232,
+          "comments": 24,
+          "shares": 200,
+          "saves": 1054
+        },
+        "is_ad": true,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogyGLDe4bIfpUvVsICk7Ie2xI22gRIAGwLXjA9~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=SmAJGGOx7ffpQmm9MabRVkD%2Ft2o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 0.61,
+        "comment_rate_pct": 0.003,
+        "share_rate_pct": 0.029,
+        "save_rate_pct": 0.152,
+        "visible_interaction_rate_pct": 0.794
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT01_miranda_s_world_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7560659434997959958?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@mirandasdreamworld/video/7560659434997959958",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT02",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Кашемировый шарф · короткий мем",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Robyn",
+      "format": "Короткое видео · 5 секунд",
+      "why_selected": "Высокая плотность отметок и сохранений в предельно коротком формате",
+      "first_screen_or_two_seconds": "Текст «Got a cashmere scarf and this is my life now» появляется сразу",
+      "visual_device": "Мем об идентичности владельца вещи + мгновенно понятный сценарий",
+      "proof_or_trust": "Кашемировый шарф назван в экранном тексте; иных доказательств нет",
+      "cta_and_path": "Призыва нет; механика рассчитана на узнавание и пересылку",
+      "visible_metrics_sheet_snapshot": "237 700 просмотров · 27 300 отметок · 52 комментария · 679 репостов · 2 810 сохранений",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Тестировать 5–7-секундные ситуации «после покупки кашемира» без продуктовых преувеличений",
+      "direct_url": "https://www.tiktok.com/@robyn_nagioff/video/7591823784114523414",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Рынок аудитории неизвестен; высокая вовлечённость не доказывает покупки; не копировать шутку или видео буквально",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@robyn_nagioff/video/7591823784114523414",
+        "video_id": "7591823784114523414",
+        "author": "robyn_nagioff",
+        "description": "#biglittlelies ",
+        "created_at": "2026-01-05T10:33:54.000Z",
+        "duration_seconds": 5,
+        "visible_metrics": {
+          "views": 237700,
+          "likes": 27300,
+          "comments": 52,
+          "shares": 679,
+          "saves": 2810
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owdVaFIeQIgBvJALyJSI3GyDtQevIaReAAILaj~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=T6O4COH6rk3hvEKaXBIDbZSgwn0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 11.485,
+        "comment_rate_pct": 0.022,
+        "share_rate_pct": 0.286,
+        "save_rate_pct": 1.182,
+        "visible_interaction_rate_pct": 12.975
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT02_robyn_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7591823784114523414?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@robyn_nagioff/video/7591823784114523414",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT03",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Cashmere Schal · заявленная цена 10€",
+      "market": "Германия",
+      "platform": "TikTok",
+      "brand_or_account": "OFT Stuttgart",
+      "format": "Короткое видео · 30 секунд",
+      "why_selected": "Сильный локальный DE-сигнал: цена на первом экране и много сохранений",
+      "first_screen_or_two_seconds": "Крупный текст «Cashmere Schal 10€ 💜»",
+      "visual_device": "Цена как hook + быстрая стилизация + отметки локальных магазинов",
+      "proof_or_trust": "Цена и товар показаны автором; аккаунт перечисляет магазины в Германии",
+      "cta_and_path": "Переход к отмеченным аккаунтам магазинов OFT",
+      "visible_metrics_sheet_snapshot": "316 100 просмотров · 7 267 отметок · 34 комментария · 362 репоста · 5 348 сохранений",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Проверить немецкий первый экран «материал + честная цена» и показать 2–3 способа ношения",
+      "direct_url": "https://www.tiktok.com/@oft.st/video/7674187190888418592",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Цена 10€ несопоставима с Avdar и не должна переноситься; метрики динамичны и не являются данными о продажах",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@oft.st/video/7674187190888418592",
+        "video_id": "7674187190888418592",
+        "author": "oft.st",
+        "description": "Cashmere Schal 💜 @OFT Köln @OFT Frankfurt @OFT Hamburg @OFT Dortmund #cashmere #schal #outfitideas #viral #balaklava ",
+        "created_at": "2026-08-15T09:25:48.000Z",
+        "duration_seconds": 30,
+        "visible_metrics": {
+          "views": 316100,
+          "likes": 7267,
+          "comments": 34,
+          "shares": 362,
+          "saves": 5348
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAeAjFWjVQM5IAGbYDALfE8IQ0GHD7AIdgeYTi~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=jdGpGXA9OihZ%2BT7Wi2G0X9XIHog%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 2.299,
+        "comment_rate_pct": 0.011,
+        "share_rate_pct": 0.115,
+        "save_rate_pct": 1.692,
+        "visible_interaction_rate_pct": 4.116
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT03_oft_stuttgart_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7674187190888418592?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@oft.st/video/7674187190888418592",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT04",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Burberry Crystal cashmere scarf · лимитированная серия",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Izzyinthetrench",
+      "format": "Видео · 90 секунд",
+      "why_selected": "Сильная комбинация редкости, демонстрации коллекции и прямого коммерческого пути",
+      "first_screen_or_two_seconds": "Сразу заявлена лимитированная коллекция Burberry Crystal",
+      "visual_device": "Последовательный показ цветов + дефицит + личный консультант",
+      "proof_or_trust": "Заявлено менее 50 экземпляров каждого цвета и отсутствие онлайн-продажи",
+      "cta_and_path": "Написать в Direct, комментарии или по телефону консультанту",
+      "visible_metrics_sheet_snapshot": "90 700 просмотров · 9 607 отметок · 123 комментария · 1 463 репоста · 1 327 сохранений",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Использовать дефицит только при реальном остатке; показать цвета и дать один проверяемый путь к покупке",
+      "direct_url": "https://www.tiktok.com/@izzyinthetrench/video/7672211322049793311",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Заявления о количестве принадлежат автору; контактная механика Burberry не переносится автоматически; права на контент отсутствуют",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@izzyinthetrench/video/7672211322049793311",
+        "video_id": "7672211322049793311",
+        "author": "izzyinthetrench",
+        "description": "Burberry Crystal cashmere Scarf limited edition collection! •  ONLY available in store’s or text  +1 (848) 828-0609 • Less than 50 of each color made! Available now!! • NOT AVAILABLE ONLINE YET! Be the first and only to have this exclusive piece! • Dm, Comment or text +1 (848) 828-0609💕 • #Burberryclientadvisor #fyp #burberryscarf #limitededition #foryoupage",
+        "created_at": "2026-08-10T01:38:37.000Z",
+        "duration_seconds": 90,
+        "visible_metrics": {
+          "views": 90800,
+          "likes": 9609,
+          "comments": 123,
+          "shares": 1464,
+          "saves": 1327
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogFu6wpUeAFLIlHEEifS9jKCqO5fIXaFIbNAID~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=M14HJI9ojp9hCEf%2BOjMcDWuQul8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 10.583,
+        "comment_rate_pct": 0.135,
+        "share_rate_pct": 1.612,
+        "save_rate_pct": 1.461,
+        "visible_interaction_rate_pct": 13.792
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "views": {
+          "sheet_snapshot": 90700,
+          "fresh": 90800,
+          "delta": 100
+        },
+        "likes": {
+          "sheet_snapshot": 9607,
+          "fresh": 9609,
+          "delta": 2
+        },
+        "shares": {
+          "sheet_snapshot": 1463,
+          "fresh": 1464,
+          "delta": 1
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT04_izzyinthetrench_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7672211322049793311?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@izzyinthetrench/video/7672211322049793311",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT05",
+      "product_group": "Кашемировый шарф",
+      "product_or_sku": "Burberry Check · 100% кашемир",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Burberry Outlet Cabazon",
+      "format": "Короткое видео · 14 секунд",
+      "why_selected": "Компактный пример, как уместить узнаваемость, состав и происхождение в 14 секунд",
+      "first_screen_or_two_seconds": "Крупный текст «THE ICONIC BURBERRY CHECK»",
+      "visual_device": "Узнаваемый паттерн + короткие доказательные титры",
+      "proof_or_trust": "Заявлены 100% кашемир, производство в Шотландии и более 30 этапов",
+      "cta_and_path": "Написать для цены и наличия; подписаться на аккаунт",
+      "visible_metrics_sheet_snapshot": "9 945 просмотров · 432 отметки · 3 комментария · 32 репоста · 48 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Собрать короткую цепочку «материал → Монголия → измеримый процесс» в первые 10–15 секунд",
+      "direct_url": "https://www.tiktok.com/@burberryoutletcabazon/video/7677874931039767838",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Доказательства относятся только к Burberry; небольшой абсолютный сигнал; не использовать чужой паттерн и формулировки",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@burberryoutletcabazon/video/7677874931039767838",
+        "video_id": "7677874931039767838",
+        "author": "burberryoutletcabazon",
+        "description": "The iconic Burberry Check 🖤 100% cashmere • Made in Scotland • Crafted through more than 30 steps. Available at Burberry Outlet 📍Cabazon DM for current price & availability.                                        Follow for more ✅ #Burberry #BurberryScarf #BurberryCheck #Cashmere #fyp ",
+        "created_at": "2026-08-25T07:56:57.000Z",
+        "duration_seconds": 14,
+        "visible_metrics": {
+          "views": 9953,
+          "likes": 432,
+          "comments": 3,
+          "shares": 32,
+          "saves": 48
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/o0IEoiNvi11AsmoI9KRQtVb2BpaBAhy5bISDE~tplv-tiktokx-dmt-logom:tos-useast8-i-0068-tx2/ogS6SiqCiICEA6R8qNfVEAjAIA0c1BKyiAMsBy.image?dr=10393&x-expires=1789639200&x-signature=kF0Y%2BQLm0b62ALHaYc0Q1vpocos%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 4.34,
+        "comment_rate_pct": 0.03,
+        "share_rate_pct": 0.322,
+        "save_rate_pct": 0.482,
+        "visible_interaction_rate_pct": 5.174
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "views": {
+          "sheet_snapshot": 9945,
+          "fresh": 9953,
+          "delta": 8
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT06",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Мериносовые носки · outdoor",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "trektwinz",
+      "format": "Короткое видео · 26 секунд",
+      "why_selected": "Простой формат объяснения категории в естественном outdoor-контексте",
+      "first_screen_or_two_seconds": "Разговорный тезис «Merino socks are AWESOME!!!»",
+      "visual_device": "Автор в кадре + предметная демонстрация экипировки",
+      "proof_or_trust": "Личный опыт автора; независимых тестов характеристик нет",
+      "cta_and_path": "Прямого призыва нет; интерес ведёт к профилю outdoor-автора",
+      "visible_metrics_sheet_snapshot": "8 964 просмотра · 216 отметок · 3 комментария · 16 репостов · 42 сохранения",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снять короткое объяснение одного подтверждённого преимущества носков в реальном холодном сценарии",
+      "direct_url": "https://www.tiktok.com/@trektwinz/video/7592321077372587286",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Личный отзыв не является лабораторным доказательством; аудитория вне launch-рынков; метрики не равны продажам",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@trektwinz/video/7592321077372587286",
+        "video_id": "7592321077372587286",
+        "author": "trektwinz",
+        "description": "Merino socks are AWESOME!!! #merino #outdoorgear #gorpcore #gorp #hiking ",
+        "created_at": "2026-01-06T18:43:28.000Z",
+        "duration_seconds": 26,
+        "visible_metrics": {
+          "views": 8966,
+          "likes": 216,
+          "comments": 3,
+          "shares": 16,
+          "saves": 42
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o8BvAjyfI0iQpyCwAmBdTtiq092rwA0ElGVKIC~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=JPSw3Ut2qjr%2Fk%2Fe%2F9CTWbz9FcNk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 2.409,
+        "comment_rate_pct": 0.033,
+        "share_rate_pct": 0.178,
+        "save_rate_pct": 0.468,
+        "visible_interaction_rate_pct": 3.089
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "views": {
+          "sheet_snapshot": 8964,
+          "fresh": 8966,
+          "delta": 2
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT07",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Длинные мериносовые носки · сценарий мороза",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "lulu",
+      "format": "Короткое видео · 10 секунд",
+      "why_selected": "Понятный погодный сценарий без сложного объяснения товара",
+      "first_screen_or_two_seconds": "POV-текст: «the night is calling u but its 0 degrees outside»",
+      "visual_device": "Ситуационный POV + длинные носки как визуальный ответ на холод",
+      "proof_or_trust": "Температурный контекст показан текстом; свойства товара не доказаны",
+      "cta_and_path": "Призыва нет",
+      "visible_metrics_sheet_snapshot": "2 750 просмотров · 121 отметка · 1 комментарий · 2 репоста · 6 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Тестировать погодные POV-сценарии и показывать длину носка на человеке",
+      "direct_url": "https://www.tiktok.com/@luciastephensonn/video/7672304188159757588",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Небольшой сигнал; нельзя обещать температурный предел без теста; контент нельзя переиспользовать без разрешения",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@luciastephensonn/video/7672304188159757588",
+        "video_id": "7672304188159757588",
+        "author": "luciastephensonn",
+        "description": "me and my long merino socks all the way 😛",
+        "created_at": "2026-08-10T07:38:58.000Z",
+        "duration_seconds": 10,
+        "visible_metrics": {
+          "views": 2754,
+          "likes": 121,
+          "comments": 1,
+          "shares": 2,
+          "saves": 6
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8MAfnggANeIvt4Uj0FCDZyRBEIpICF5VNr8fD~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=yCbe7nGhYiSABkloS4iaJo1xjyc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 4.394,
+        "comment_rate_pct": 0.036,
+        "share_rate_pct": 0.073,
+        "save_rate_pct": 0.218,
+        "visible_interaction_rate_pct": 4.72
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "views": {
+          "sheet_snapshot": 2750,
+          "fresh": 2754,
+          "delta": 4
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT08",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Мериносовые носки · цветовая стилизация",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "solekind",
+      "format": "Короткое видео · 5 секунд",
+      "why_selected": "Предельно простой и воспроизводимый styling-loop для одиночных пар и комплектов",
+      "first_screen_or_two_seconds": "Текст «Me when I match the colour of my socks with my outfit»",
+      "visual_device": "Совпадение цвета носков и одежды + короткий зацикленный монтаж",
+      "proof_or_trust": "Товар и цвет видны; функциональные свойства не заявляются",
+      "cta_and_path": "Призыва нет; путь — профиль бренда",
+      "visible_metrics_sheet_snapshot": "2 247 просмотров · 118 отметок · 3 комментария · 9 репостов · 7 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снять 3 цветовые пары «носки + образ» и использовать механику для bundle/family pack",
+      "direct_url": "https://www.tiktok.com/@solekind/video/7683105883483540757",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Небольшой количественный сигнал; рынок вне Европы; копировать можно только механику, а не чужой ролик",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@solekind/video/7683105883483540757",
+        "video_id": "7683105883483540757",
+        "author": "solekind",
+        "description": "The ultimate cheat code for a great outfit #socks #smallbusiness #trending #merinowool #outfitideas ",
+        "created_at": "2026-09-08T10:14:51.000Z",
+        "duration_seconds": 5,
+        "visible_metrics": {
+          "views": 2247,
+          "likes": 118,
+          "comments": 3,
+          "shares": 9,
+          "saves": 7
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/owfi47T4PCDFzFCQVQJ64oA0nteABVc1DIjfEc~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=EoPrHbTe12Ex%2F8ttz1yqs158I9U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 5.251,
+        "comment_rate_pct": 0.134,
+        "share_rate_pct": 0.401,
+        "save_rate_pct": 0.312,
+        "visible_interaction_rate_pct": 6.097
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT08_solekind_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7683105883483540757?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@solekind/video/7683105883483540757",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT09",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "Point6 · мериносовые носки",
+      "market": "Германия",
+      "platform": "TikTok",
+      "brand_or_account": "S4Supply Europe",
+      "format": "Видео · 110 секунд",
+      "why_selected": "DE-референс с двуязычным объяснением и прямым путём на коллекцию",
+      "first_screen_or_two_seconds": "Тезис «Es geht kaum besser!» и английский дубль «One of the best out there!»",
+      "visual_device": "Экспертная демонстрация товара + немецкие категорийные хэштеги",
+      "proof_or_trust": "Показан конкретный бренд Point6; заявлена отличная посадка",
+      "cta_and_path": "Прямая ссылка на коллекцию мериносовых носков",
+      "visible_metrics_sheet_snapshot": "1 241 просмотр · 30 отметок · 1 комментарий · 1 репост · 15 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Сохранить немецкую локализацию и прямой PDP-путь, но сократить объяснение до одного тезиса",
+      "direct_url": "https://www.tiktok.com/@s4supply/video/7631250986941599009",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Слабый количественный сигнал; посадка не подтверждена независимым тестом; внешняя ссылка и цены динамичны",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@s4supply/video/7631250986941599009",
+        "video_id": "7631250986941599009",
+        "author": "s4supply",
+        "description": "🇩🇪: Es geht kaum besser! 🇬🇧: One of the best out there!  Hier gehts zu den Produkten: https://s4supplies.com/collections/point6-merino-wool-socken Pic by: @s4supply_actual #merinowolle #merino #merinosocken #perfektepassform  #operatorifestyle ",
+        "created_at": "2026-04-21T16:31:25.000Z",
+        "duration_seconds": 110,
+        "visible_metrics": {
+          "views": 1241,
+          "likes": 30,
+          "comments": 1,
+          "shares": 1,
+          "saves": 15
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oszA8DI0MRGhjfgot0eNLBPGeOMavTgIT6gFSM~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=VTtL04BJEWmfodQg2mWnSmza9Hs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 2.417,
+        "comment_rate_pct": 0.081,
+        "share_rate_pct": 0.081,
+        "save_rate_pct": 1.209,
+        "visible_interaction_rate_pct": 3.787
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT10",
+      "product_group": "Шерстяные носки",
+      "product_or_sku": "MARO · мериносовые носки",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Holi.Zac × MARO",
+      "format": "Короткое видео · 35 секунд",
+      "why_selected": "Пример creator endorsement с быстрым переходом к конкретному бренду",
+      "first_screen_or_two_seconds": "Автор сразу отмечает MARO и показывает мериносовые носки",
+      "visual_device": "Лицо автора + товар в руках + разговорная похвала",
+      "proof_or_trust": "Только личное одобрение автора; рекламная связь публично не подтверждена",
+      "cta_and_path": "Призыва нет; кликабельная отметка аккаунта MARO",
+      "visible_metrics_sheet_snapshot": "2 410 просмотров · 59 отметок · 1 комментарий · 3 репоста · 13 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Использовать честный опыт создателя и явную маркировку сотрудничества, если оно оплачено",
+      "direct_url": "https://www.tiktok.com/@holizac/video/7675004141567020319",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Disclosure сотрудничества не виден; endorsement не доказывает свойства или продажи; нужны права автора",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@holizac/video/7675004141567020319",
+        "video_id": "7675004141567020319",
+        "author": "holizac",
+        "description": "@MARO merino wool socks 👏 Bravo my friends ",
+        "created_at": "2026-08-17T14:16:24.000Z",
+        "duration_seconds": 35,
+        "visible_metrics": {
+          "views": 2413,
+          "likes": 59,
+          "comments": 1,
+          "shares": 3,
+          "saves": 13
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/os61QOBIIiAiIm3EfCAAI7PiAYDWLTqv7DlIqF~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=fbtPR7LyTwA9SlKPoCUFiW6TEQ4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 2.445,
+        "comment_rate_pct": 0.041,
+        "share_rate_pct": 0.124,
+        "save_rate_pct": 0.539,
+        "visible_interaction_rate_pct": 3.15
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "views": {
+          "sheet_snapshot": 2410,
+          "fresh": 2413,
+          "delta": 3
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT11",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Плед крупной вязки из мериноса",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Laura · elle_macrame",
+      "format": "Короткое видео · 18 секунд",
+      "why_selected": "Тактильный craft/process-референс с заметным органическим охватом",
+      "first_screen_or_two_seconds": "Крупная вязка и материал занимают почти весь кадр",
+      "visual_device": "Макро фактуры + ручной процесс + спокойный домашний контекст",
+      "proof_or_trust": "Меринос и slow fashion заявлены в подписи; дополнительных сертификатов нет",
+      "cta_and_path": "Призыва в ролике нет; магазин доступен через профиль автора",
+      "visible_metrics_sheet_snapshot": "66 700 просмотров · 1 295 отметок · 29 комментариев · 157 репостов · 276 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Показать руки, край, толщину и драпировку пледа в коротком процессе",
+      "direct_url": "https://www.tiktok.com/@elle_macrame/video/7166947794073259270",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Это плед крупной вязки, а не прямой аналог Avdar; заявленные материалы относятся только к изделию автора",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@elle_macrame/video/7166947794073259270",
+        "video_id": "7166947794073259270",
+        "author": "elle_macrame",
+        "description": "#lanamerinos #merinos #chunkyblanket #copertalanamerino #merinowool #chunkyknitblanket #homedecor #slowfashion #chunkyyarn #knitstagram #cozyhome #knittinginspirationc ",
+        "created_at": "2022-11-17T11:37:53.000Z",
+        "duration_seconds": 18,
+        "visible_metrics": {
+          "views": 66700,
+          "likes": 1295,
+          "comments": 29,
+          "shares": 157,
+          "saves": 276
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/3860aa854d8e4d7ca3d25766c38f0bc2_1668685075~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=RDB4E4pHegDaBT6pnPvpUtEb5RM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 1.942,
+        "comment_rate_pct": 0.043,
+        "share_rate_pct": 0.235,
+        "save_rate_pct": 0.414,
+        "visible_interaction_rate_pct": 2.634
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT12",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Шерстяной плед · чистка снегом",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Kyana Sue Powers",
+      "format": "Короткое видео · 9 секунд",
+      "why_selected": "Самый сильный охват выборки и контринтуитивный северный ритуал ухода",
+      "first_screen_or_two_seconds": "Текст «How my Icelandic husband cleans our wool blankets 🇮🇸❄️»",
+      "visual_device": "Неожиданное действие со снегом + локальная традиция + быстрый результат",
+      "proof_or_trust": "Реальный процесс показан в кадре; универсальная пригодность метода не доказана",
+      "cta_and_path": "Вопрос «Have you ever tried this?» провоцирует обсуждение",
+      "visible_metrics_sheet_snapshot": "12 800 000 просмотров · 444 100 отметок · 1 355 комментариев · 3 185 репостов · 12 164 сохранения",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Тестировать контринтуитивный hook об уходе, но показывать только утверждённый производителем метод Avdar",
+      "direct_url": "https://www.tiktok.com/@kyanasue/video/7611997731170700566",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Исландский бытовой метод нельзя переносить без проверки ухода; вирусный охват не доказывает продажи; нужны права автора",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@kyanasue/video/7611997731170700566",
+        "video_id": "7611997731170700566",
+        "author": "kyanasue",
+        "description": "Have you ever tried this?? He literally ripped this blanket off me when I was watching tv and then covered it in snow 😂 #iceland #nordic #traditions ",
+        "created_at": "2026-02-28T19:18:57.000Z",
+        "duration_seconds": 9,
+        "visible_metrics": {
+          "views": 12800000,
+          "likes": 444100,
+          "comments": 1355,
+          "shares": 3185,
+          "saves": 12165
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEALT0qMZKTgeDhr7qGnmgbVIRfjI6LAgfDIwy~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=%2BV9IkXbNCu8nvbnGkbjPfgcwVkQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 3.47,
+        "comment_rate_pct": 0.011,
+        "share_rate_pct": 0.025,
+        "save_rate_pct": 0.095,
+        "visible_interaction_rate_pct": 3.6
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "saves": {
+          "sheet_snapshot": 12164,
+          "fresh": 12165,
+          "delta": 1
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT12_kyana_sue_powers_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7611997731170700566?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@kyanasue/video/7611997731170700566",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT13",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Французский военно-морской шерстяной плед",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Americana Pipedream Apparel",
+      "format": "Короткое видео · 36 секунд",
+      "why_selected": "Высокий охват у товарного рассказа, построенного на составе, возрасте и наличии",
+      "first_screen_or_two_seconds": "Фраза «French Navy Wool Blankets are now in stock!» и немедленный показ пледа",
+      "visual_device": "Предмет в руках + происхождение + возраст + два цвета",
+      "proof_or_trust": "Заявлены 100% шерсть и производство в 1950–1960-х годах",
+      "cta_and_path": "Сообщение о наличии; переход на сайт из профиля продавца",
+      "visible_metrics_sheet_snapshot": "574 100 просмотров · 13 800 отметок · 139 комментариев · 354 репоста · 2 281 сохранение",
+      "evidence_status": "Сильный по метрикам",
+      "applicable_to_avdar": "Связать наличие Avdar с конкретным происхождением, составом и визуальным сравнением цветов",
+      "direct_url": "https://www.tiktok.com/@americana.pipedream/video/7568905208344907063",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Исторические заявления принадлежат продавцу и не относятся к Avdar; метрики не доказывают коммерческий результат",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@americana.pipedream/video/7568905208344907063",
+        "video_id": "7568905208344907063",
+        "author": "americana.pipedream",
+        "description": "French Navy Wool Blankets are now in stock! 100% wool, made back in the 1950s and 1960s.  We have ‘em in two colors: Blue and ecru!",
+        "created_at": "2025-11-04T16:18:28.000Z",
+        "duration_seconds": 36,
+        "visible_metrics": {
+          "views": 574100,
+          "likes": 13800,
+          "comments": 139,
+          "shares": 354,
+          "saves": 2281
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ocQKGlgQECDACSbFi5BsspJdyPTDREKeQR1ofi~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=%2FBKiIs6rbY3k36c8%2BcVdC%2BQfHGQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 2.404,
+        "comment_rate_pct": 0.024,
+        "share_rate_pct": 0.062,
+        "save_rate_pct": 0.397,
+        "visible_interaction_rate_pct": 2.887
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT13_americana_pipedream_apparel_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7568905208344907063?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@americana.pipedream/video/7568905208344907063",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT14",
+      "product_group": "Другие пледы",
+      "product_or_sku": "Hermès · шерстяной плед",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Zafira",
+      "format": "Короткое видео · 34 секунды",
+      "why_selected": "Полезная механика обсуждения высокой цены, хотя относительная реакция умеренная",
+      "first_screen_or_two_seconds": "Фраза «When you realize the blanket costs more than your couch»",
+      "visual_device": "Ценовой конфликт + последовательные текстовые возражения + интерьер",
+      "proof_or_trust": "Автор показывает плед, фактуру и соответствие дивану; независимой проверки нет",
+      "cta_and_path": "Вопросы «Is it worth it?» и «Wdyt?» ведут в комментарии",
+      "visible_metrics_sheet_snapshot": "91 200 просмотров · 455 отметок · 11 комментариев · 33 репоста · 109 сохранений",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Открыто разбирать ценовое возражение через масштаб, состав и измеримые характеристики, а не через статус",
+      "direct_url": "https://www.tiktok.com/@zafirazaf_/video/7454585305123851525",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "В поиске видна branded-content отметка, но page metadata isAd=false; высокий reach при слабее выраженных реакциях; не копировать брендовые элементы",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@zafirazaf_/video/7454585305123851525",
+        "video_id": "7454585305123851525",
+        "author": "zafirazaf_",
+        "description": "When you realize the blanket costs more than your couch. 🧡 #hermesblanket ",
+        "created_at": "2024-12-31T14:38:20.000Z",
+        "duration_seconds": 34,
+        "visible_metrics": {
+          "views": 91200,
+          "likes": 455,
+          "comments": 11,
+          "shares": 33,
+          "saves": 109
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/oAAE6dADIFSGACJA3nqaReQAHEIpfBUDQoA7Qn~tplv-tiktokx-dmt-logom:tos-useast2a-v-0068/o0toZhHEAXRQAQKIeCFnAADDQUJAABg7fAdENq.image?dr=10393&x-expires=1789639200&x-signature=WPY0%2FrxZwQmmIurFXyYUtNzbDA0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 0.499,
+        "comment_rate_pct": 0.012,
+        "share_rate_pct": 0.036,
+        "save_rate_pct": 0.12,
+        "visible_interaction_rate_pct": 0.667
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    },
+    {
+      "id": "TT15",
+      "product_group": "Другие пледы",
+      "product_or_sku": "100% virgin wool · жаккард · €119",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "lander_71sqm",
+      "format": "Короткое видео · 34 секунды",
+      "why_selected": "Лучший EU-референс полной цепочки founder story → proof → цена → доставка",
+      "first_screen_or_two_seconds": "Основатель говорит о проекте, над которым работал почти год",
+      "visual_device": "Лицо автора + интерьер + характеристики + ограниченный остаток",
+      "proof_or_trust": "Заявлены 100% virgin wool, жаккард, на 40% меньше пилинга и смягчение со временем",
+      "cta_and_path": "Менее 140 штук; €119; бесплатная доставка по Европе; 71sqm.shop",
+      "visible_metrics_sheet_snapshot": "24 300 просмотров · 194 отметки · 6 комментариев · 23 репоста · 83 сохранения",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Собрать ролик «почему сделали → точные характеристики → реальный остаток → цена и доставка»",
+      "direct_url": "https://www.tiktok.com/@lander_71sqm/video/7423713121409240328",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Все характеристики являются заявлениями бренда; показатель 40% нельзя переносить без теста; охват не доказывает продажи",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@lander_71sqm/video/7423713121409240328",
+        "video_id": "7423713121409240328",
+        "author": "lander_71sqm",
+        "description": "Let me share a bit about a project I’ve been working on for almost a year, and now it’s finally live! 🎉 As a product designer and art lover, I wanted to create something not only beautiful but also long-lasting and high-quality. I’m thrilled to say that the first drop of blankets reached its goal 100%! 🙌 Each blanket is made from 100% virgin wool using a jacquard knit, which means 40% less pilling compared to standard wool blankets. Plus, they get softer over time! ✨ We have fewer than 140 pieces left in each of the two designs, so make sure to grab yours before they’re gone! And the best part? They’re only 119€ with free shipping across Europe—an amazing deal for the quality, especially compared to mass-market options at similar prices😉 🔗71sqm.shop  . . . . . . #DesignWithPurpose #CozyLiving #WoolBlanket #71sqm #InteriorInspo #HomeDecor #SustainableDesign #LimitedEdition #EuropeanDesign #HomeStyling #blueblanket #hmdecor #hmhome #arketblanket #greenblanket #designblanket #estoniandesign",
+        "created_at": "2024-10-09T09:58:29.000Z",
+        "duration_seconds": 34,
+        "visible_metrics": {
+          "views": 24300,
+          "likes": 194,
+          "comments": 6,
+          "shares": 23,
+          "saves": 83
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8fnAgRAEWDBfGQELUFPCEA8BAAXIgC4lAAcXA~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=iIWjgtivHjJysvs0vKPonw0uP94%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 0.798,
+        "comment_rate_pct": 0.025,
+        "share_rate_pct": 0.095,
+        "save_rate_pct": 0.342,
+        "visible_interaction_rate_pct": 1.259
+      },
+      "metric_delta_from_sheet_snapshot": {},
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "captured from the official public TikTok player",
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT15_lander_71sqm_official_embed.png",
+        "final_url": "https://www.tiktok.com/player/v1/7423713121409240328?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@lander_71sqm/video/7423713121409240328",
+        "interaction_policy": "no likes, follows, comments, saves, shares or messages; no media download"
+      }
+    },
+    {
+      "id": "TT16",
+      "product_group": "Другие пледы",
+      "product_or_sku": "LOPI / Arturus · шерстяные пледы",
+      "market": "Мировой ориентир",
+      "platform": "TikTok",
+      "brand_or_account": "Art by AnnMarie",
+      "format": "Видео-разбор · 133 секунды",
+      "why_selected": "Редакционный haul даёт язык сравнения нескольких шерстяных изделий",
+      "first_screen_or_two_seconds": "Крупный текст «WOOL haul»; затем названия LOPI и Arturus",
+      "visual_device": "Авторский обзор + физическое сравнение изделий + крупные планы",
+      "proof_or_trust": "Пледы названы в экранном тексте; выводы основаны на опыте автора",
+      "cta_and_path": "Призыва в ролике нет",
+      "visible_metrics_sheet_snapshot": "7 304 просмотра · 315 отметок · 21 комментарий · 3 репоста · 31 сохранение",
+      "evidence_status": "Визуальный референс",
+      "applicable_to_avdar": "Снять сравнительный разбор Avdar по весу, фактуре, краю и сценарию использования",
+      "direct_url": "https://www.tiktok.com/@annmarie.artworks/video/7674782947047771406",
+      "source_snapshot_date": "15.09.2026",
+      "rights_and_limitations": "Вне launch-рынков; длинный формат требует монтажа; оценки автора субъективны и не доказывают продажи",
+      "fresh_official_page_metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@annmarie.artworks/video/7674782947047771406",
+        "video_id": "7674782947047771406",
+        "author": "annmarie.artworks",
+        "description": "🐑 🐑 my expensive wool haul month #wool #sheepskin #fiberart ",
+        "created_at": "2026-08-16T23:58:04.000Z",
+        "duration_seconds": 133,
+        "visible_metrics": {
+          "views": 7307,
+          "likes": 315,
+          "comments": 21,
+          "shares": 3,
+          "saves": 31
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o4EAKI442BBNJM1U3MCyBEaXTTCxMgviobioP~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=78dfFDwap%2F7mfyGcHNeV9U%2Fk%2FdU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "derived_public_rates": {
+        "like_rate_pct": 4.311,
+        "comment_rate_pct": 0.287,
+        "share_rate_pct": 0.041,
+        "save_rate_pct": 0.424,
+        "visible_interaction_rate_pct": 5.064
+      },
+      "metric_delta_from_sheet_snapshot": {
+        "views": {
+          "sheet_snapshot": 7304,
+          "fresh": 7307,
+          "delta": 3
+        }
+      },
+      "metric_change_note": "Use fresh_official_page_metadata.visible_metrics for the 15.09.2026 cut; the sheet string is retained for audit comparison.",
+      "fresh_capture": {
+        "status": "not captured in this priority pass",
+        "screenshot_path": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "title": "Avdar Market — creative pattern synthesis",
+  "version": "1.0",
+  "snapshot_date": "2026-09-15",
+  "language": "ru",
+  "scope": {
+    "site_references": 20,
+    "instagram_references": 16,
+    "tiktok_references": 16,
+    "total_references": 52,
+    "launch_markets": [
+      "DE",
+      "NL",
+      "BE",
+      "DK",
+      "SE",
+      "FI",
+      "PL"
+    ],
+    "launch_models": [
+      "single socks",
+      "packs / family kits",
+      "gift boxes",
+      "throws",
+      "cashmere scarf"
+    ]
+  },
+  "evidence_policy": {
+    "metric_signal": "Видимые просмотры, реакции, комментарии, репосты или сохранения подтверждают только публичный отклик на конкретный материал в момент среза.",
+    "visual_reference": "Композиция, формат или путь покупки могут быть полезны без доказательства коммерческой эффективности.",
+    "not_available": [
+      "reach",
+      "watch time",
+      "link clicks",
+      "spend",
+      "attributed sales",
+      "ROAS"
+    ],
+    "rule": "Не переносить заявления конкурентов на Avdar и не трактовать публичные метрики как продажи."
+  },
+  "screenshot_evidence": {
+    "presentation_ready_full_sets": [
+      "WEB-001",
+      "WEB-007",
+      "WEB-010",
+      "WEB-012",
+      "WEB-013",
+      "WEB-019"
+    ],
+    "presentation_ready_mobile_only": [
+      "WEB-004"
+    ],
+    "do_not_use_as_product_proof": [
+      {
+        "source_id": "WEB-004",
+        "reason": "Desktop capture shows MIDA Access Denied."
+      },
+      {
+        "source_id": "WEB-017",
+        "reason": "The direct locale product URL redirects to the Lisa Yang homepage; captures do not prove the product page."
+      }
+    ],
+    "folder": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/sites_priority"
+  },
+  "creative_patterns": [
+    {
+      "id": "CP-01",
+      "name": "Фактура, которой веришь",
+      "client_takeaway": "Начинать не с общего слова «мягкий», а с физического контакта: рука, край, ворс, драпировка или растяжение занимают почти весь первый кадр.",
+      "product_families": [
+        "cashmere / wool / yak scarves",
+        "wool / yak socks",
+        "gloves",
+        "shawls",
+        "yak / cashmere / wool throws"
+      ],
+      "first_frame_formula": "Макро материала + рука или движение + одно короткое проверяемое обещание; товар распознаётся без звука за 1 секунду.",
+      "proof_mechanism": [
+        "прикосновение и деформация материала в одном непрерывном кадре",
+        "макро края, ворса, вязки или бахромы",
+        "затем точный состав или параметр из спецификации Avdar"
+      ],
+      "cta_funnel": {
+        "stage": "awareness → consideration",
+        "cta": "Посмотреть состав и детали",
+        "route": "product-tag или локализованный PDP конкретного SKU"
+      },
+      "strongest_source_ids": [
+        "TT-001",
+        "IG-016",
+        "TT-011",
+        "IG-014",
+        "WEB-007"
+      ],
+      "observed_signal": "TT-001: 693.8k views и 1,054 saves; IG-016: 303 comments и 240 reposts, но вне целевых рынков. Остальные источники прежде всего визуальные.",
+      "evidence_role": "mixed",
+      "risk_caveat": "Ощущение в кадре субъективно. Нельзя говорить «как кашемир», «самый мягкий» или обещать свойства без подтверждения конкретного SKU; права на UGC нужны отдельно.",
+      "proposed_avdar_test": {
+        "asset": "Два вертикальных ролика 6–9 секунд: макро шарфа и макро носка; один статичный crop для retargeting.",
+        "variants": [
+          "A: только сенсорный кадр и название материала",
+          "B: тот же кадр плюс один подтверждённый параметр"
+        ],
+        "markets": [
+          "DE",
+          "PL",
+          "NL"
+        ],
+        "primary_read": [
+          "3-second hold",
+          "50% video completion",
+          "PDP click-through"
+        ]
+      }
+    },
+    {
+      "id": "CP-02",
+      "name": "Происхождение как цепочка людей и этапов",
+      "client_takeaway": "Монголия работает сильнее как наблюдаемая цепочка «человек → волокно → руки → изделие», а не как декоративный пейзаж.",
+      "product_families": [
+        "cashmere scarves",
+        "yak scarves and shawls",
+        "yak / cashmere throws",
+        "gift sets with origin story"
+      ],
+      "first_frame_formula": "Лицо мастера или поставщика + географический якорь + переход к одному реальному этапу производства.",
+      "proof_mechanism": [
+        "собственные лица, места и этапы",
+        "измеримое число процессов, дней или участников только при наличии документации",
+        "связь происхождения с конкретным SKU или партией"
+      ],
+      "cta_funnel": {
+        "stage": "awareness → evidence hub → consideration",
+        "cta": "Узнать путь изделия",
+        "route": "короткая origin-story page, затем PDP"
+      },
+      "strongest_source_ids": [
+        "IG-001",
+        "IG-002",
+        "WEB-013",
+        "IG-013",
+        "TT-005"
+      ],
+      "observed_signal": "IG-001: 40.4k views, 1,104 likes, 10 comments и 18 reposts; сигнал усилен аудиторией The HU. WEB-013 даёт сильную измеримую структуру происхождения, но без данных о продажах.",
+      "evidence_role": "mixed",
+      "risk_caveat": "Не экзотизировать людей и культуру, не использовать чужие архивы и не заявлять благополучие животных, число этапов или страну обработки без трассируемых доказательств.",
+      "proposed_avdar_test": {
+        "asset": "Вертикальный фильм 18–25 секунд и карусель из 5 кадров для одного документированного SKU.",
+        "variants": [
+          "A: сначала человек",
+          "B: сначала материал, затем человек"
+        ],
+        "markets": [
+          "DE",
+          "SE",
+          "FI"
+        ],
+        "primary_read": [
+          "6-second hold",
+          "saves / shares",
+          "origin-page to PDP progression"
+        ]
+      }
+    },
+    {
+      "id": "CP-03",
+      "name": "Материал в цифрах",
+      "client_takeaway": "Премиальность становится понятнее, когда первый экран отвечает: из чего, какого размера, веса, плотности или микронности сделан товар.",
+      "product_families": [
+        "yak / wool / cashmere throws",
+        "cashmere scarves",
+        "wool / yak socks",
+        "gloves"
+      ],
+      "first_frame_formula": "Чистый product hero + максимум три спецификации крупным текстом: состав, размер и один дифференцирующий параметр.",
+      "proof_mechanism": [
+        "SKU-level specification",
+        "простая шкала тепла или честное «нет»",
+        "образец, отзывы или метод измерения как второй уровень доказательства"
+      ],
+      "cta_funnel": {
+        "stage": "consideration → conversion",
+        "cta": "Сравнить параметры / заказать образец / выбрать размер",
+        "route": "comparison block или PDP рядом с кнопкой покупки"
+      },
+      "strongest_source_ids": [
+        "WEB-012",
+        "WEB-019",
+        "WEB-018",
+        "WEB-013",
+        "IG-015"
+      ],
+      "observed_signal": "WEB-012 показывает 19 μm, 400 g/m², размеры, 124 reviews и sample route; WEB-019 показывает heat 4/8 и честную границу водостойкости. Это PDP-структура, не performance evidence.",
+      "evidence_role": "visual_reference",
+      "risk_caveat": "Цифры должны относиться к реальной версии товара. Формулировку IG-015 «мягче кашемира» не использовать без сравнительного теста.",
+      "proposed_avdar_test": {
+        "asset": "12-секундный spec-card Reel и статичный PDP hero для yak throw; отдельная версия для gloves.",
+        "variants": [
+          "A: состав + размер",
+          "B: состав + размер + один измеримый quality parameter"
+        ],
+        "markets": [
+          "DE",
+          "DK",
+          "SE"
+        ],
+        "primary_read": [
+          "PDP click-through",
+          "spec accordion opens",
+          "sample or size interaction",
+          "add-to-cart"
+        ]
+      }
+    },
+    {
+      "id": "CP-04",
+      "name": "Один товар — три трансформации",
+      "client_takeaway": "Длина и универсальность лучше доказываются сменой формы, а не перечислением преимуществ.",
+      "product_families": [
+        "cashmere / wool scarves",
+        "shawls",
+        "gloves + scarf combinations",
+        "sock colourways",
+        "throws"
+      ],
+      "first_frame_formula": "Готовый look или интерьер → быстрый переход в три способа ношения / использования с неизменной камерой.",
+      "proof_mechanism": [
+        "форма, длина и масштаб видны на человеке или в комнате",
+        "один непрерывный жест или повторяемый match-cut",
+        "цвет и совместимость товаров подтверждаются самим кадром"
+      ],
+      "cta_funnel": {
+        "stage": "awareness → consideration",
+        "cta": "Выбрать цвет / собрать образ",
+        "route": "цветовой вариант SKU или shoppable complete-look"
+      },
+      "strongest_source_ids": [
+        "IG-003",
+        "IG-012",
+        "TT-003",
+        "TT-008",
+        "WEB-008"
+      ],
+      "observed_signal": "TT-003: 316.1k views и 5,348 saves, но hook усилен несопоставимой ценой €10. IG-003 и IG-012 — эстетические референсы с небольшим охватом.",
+      "evidence_role": "mixed",
+      "risk_caveat": "Цена или известность чужого бренда может создавать эффект сильнее самой стилизации. Не делать скидочный вывод из TT-003 и не перегружать кадр аксессуарами.",
+      "proposed_avdar_test": {
+        "asset": "9–12 секунд: cashmere scarf в трёх формах; companion cut — gloves + scarf; carousel — throw в комнате, на человеке и macro.",
+        "variants": [
+          "A: трансформация без текста",
+          "B: номера 1–2–3 и локализованные use-cases"
+        ],
+        "markets": [
+          "DE",
+          "BE",
+          "NL"
+        ],
+        "primary_read": [
+          "rewatches",
+          "saves",
+          "colour-selector clicks",
+          "cross-sell attachment"
+        ]
+      }
+    },
+    {
+      "id": "CP-05",
+      "name": "Первый холод как сюжет",
+      "client_takeaway": "Сезон работает, когда в первом кадре есть конфликт: сандалии пора убрать, вечером 0°C, диван без пледа выглядит пустым.",
+      "product_families": [
+        "single socks",
+        "sock packs",
+        "gloves",
+        "scarves and shawls",
+        "throws"
+      ],
+      "first_frame_formula": "Погодный или бытовой триггер крупным текстом + немедленная визуальная смена на продукт как решение.",
+      "proof_mechanism": [
+        "реальный сезонный контекст",
+        "продукт в использовании, а не только на белом фоне",
+        "локальная погода как повод, но не как обещание температурного предела"
+      ],
+      "cta_funnel": {
+        "stage": "awareness → seasonal collection",
+        "cta": "Подготовиться к первым холодам",
+        "route": "локальная seasonal landing page или prebuilt kit"
+      },
+      "strongest_source_ids": [
+        "IG-004",
+        "IG-011",
+        "TT-007",
+        "TT-012"
+      ],
+      "observed_signal": "IG-004: 5,290 views; TT-012: 12.8m views, 12,164 saves и 3,185 reposts, но это вирусный care ritual, а не доказательство спроса на плед.",
+      "evidence_role": "mixed",
+      "risk_caveat": "Не обещать комфорт при конкретной температуре без теста. Погодный момент короткий, поэтому производство и локализация должны быть готовы заранее.",
+      "proposed_avdar_test": {
+        "asset": "Три локализованных 7–10-секундных сценария: commute, вечер дома, первые холодные выходные.",
+        "variants": [
+          "A: погодный конфликт",
+          "B: сезонный ритуал без температуры"
+        ],
+        "markets": [
+          "DK",
+          "SE",
+          "FI",
+          "DE",
+          "PL"
+        ],
+        "primary_read": [
+          "3-second hold",
+          "completion",
+          "seasonal landing-page CTR"
+        ]
+      }
+    },
+    {
+      "id": "CP-06",
+      "name": "Подарок выбирается по человеку, не по SKU",
+      "client_takeaway": "Первый кадр должен снять вопрос «кому это подойдёт»: показать коробку и 3 роли получателя раньше состава.",
+      "product_families": [
+        "gift boxes",
+        "sock packs / family kits",
+        "cashmere scarves",
+        "gloves + scarf sets",
+        "premium throws"
+      ],
+      "first_frame_formula": "Открытая упаковка + три подписанные роли получателя или три бюджета; продукт полностью виден внутри.",
+      "proof_mechanism": [
+        "фактическая комплектация",
+        "видимая упаковка",
+        "срок доставки, возврат и gift deadline",
+        "отзывы только для соответствующего товара или набора"
+      ],
+      "cta_funnel": {
+        "stage": "consideration → conversion",
+        "cta": "Выбрать подарок",
+        "route": "gift finder → набор → gift-wrap option → checkout"
+      },
+      "strongest_source_ids": [
+        "IG-005",
+        "WEB-016",
+        "WEB-001",
+        "WEB-009",
+        "WEB-010"
+      ],
+      "observed_signal": "IG-005 и WEB-016 дают сильную архитектуру, но без сопоставимого metric proof. WEB-010 и WEB-009 подтверждают важность простого выбора, локальной доставки и возврата.",
+      "evidence_role": "visual_reference",
+      "risk_caveat": "Не показывать упаковку, сроки или наличие, которые не гарантированы. Gift promise разваливается при несовпадении stock, cutoff и локальной доставки.",
+      "proposed_avdar_test": {
+        "asset": "Carousel и landing module для трёх наборов: Quiet Luxury, Outdoor Warmth, Family Winter.",
+        "variants": [
+          "A: выбор по получателю",
+          "B: выбор по бюджету"
+        ],
+        "markets": [
+          "DE",
+          "NL",
+          "BE",
+          "DK"
+        ],
+        "primary_read": [
+          "gift-finder starts",
+          "set PDP views",
+          "gift-wrap selection",
+          "checkout initiation"
+        ]
+      }
+    },
+    {
+      "id": "CP-07",
+      "name": "Комплект с прозрачной выгодой",
+      "client_takeaway": "Набор продаёт не процент скидки, а готовое решение: сколько вещей, для кого, каких цветов и какая реальная экономия.",
+      "product_families": [
+        "sock packs",
+        "family kits",
+        "gloves + scarf sets",
+        "gift boxes"
+      ],
+      "first_frame_formula": "Все предметы разложены в одном кадре + крупно количество и честная bundle saving; второй кадр — распределение по людям или сценариям.",
+      "proof_mechanism": [
+        "видимая комплектация и размеры",
+        "арифметика single versus pack",
+        "наличие каждого варианта",
+        "локальные способы оплаты и доставки"
+      ],
+      "cta_funnel": {
+        "stage": "conversion",
+        "cta": "Собрать комплект / добавить набор",
+        "route": "bundle builder с выбором размера и цвета → cart"
+      },
+      "strongest_source_ids": [
+        "WEB-010",
+        "IG-006",
+        "IG-005",
+        "IG-012",
+        "TT-008"
+      ],
+      "observed_signal": "WEB-010 показывает механику скидки на второй и третий товар и локальную PL-логистику. IG-006 имеет лишь 178 views; это offer-format, не performance proof.",
+      "evidence_role": "visual_reference",
+      "risk_caveat": "Скидка может съедать маржу и закреплять низкий ценовой якорь. Семейный комплект требует точного управления размерами, цветами и stock.",
+      "proposed_avdar_test": {
+        "asset": "PDP bundle module плюс 8-секундный flat-lay ролик.",
+        "variants": [
+          "A: 3 пары носков с экономией",
+          "B: family kit по ролям без процентного discount headline"
+        ],
+        "markets": [
+          "PL",
+          "DE",
+          "NL"
+        ],
+        "primary_read": [
+          "bundle-builder completion",
+          "attach rate",
+          "average units per order",
+          "checkout initiation"
+        ]
+      }
+    },
+    {
+      "id": "CP-08",
+      "name": "Один эксперт — один вопрос",
+      "client_takeaway": "Серия из коротких ответов масштабируется лучше, чем один длинный фильм о материалах.",
+      "product_families": [
+        "all Avdar product families"
+      ],
+      "first_frame_formula": "Лицо + товар в руках + один вопрос на экране: «Что означает 19 μm?», «Почему этот край?», «Как выбрать носки?»",
+      "proof_mechanism": [
+        "крупный план предмета во время ответа",
+        "одна спецификация, документ или демонстрация",
+        "ссылка на расширенное подтверждение"
+      ],
+      "cta_funnel": {
+        "stage": "awareness → education → consideration",
+        "cta": "Следующий выпуск / проверить характеристику",
+        "route": "series playlist → evidence page → relevant PDP"
+      },
+      "strongest_source_ids": [
+        "IG-007",
+        "TT-015",
+        "TT-006",
+        "TT-009",
+        "IG-008"
+      ],
+      "observed_signal": "TT-015: 24.3k views и 83 saves у полной founder-to-offer структуры; IG-007 имеет 0 comments и служит только как дешёвый серийный формат.",
+      "evidence_role": "mixed",
+      "risk_caveat": "Лицо основателя не заменяет сертификат или тест. Один ролик — один тезис; disclosure обязателен для оплаченного creator content.",
+      "proposed_avdar_test": {
+        "asset": "Пять выпусков по 12–20 секунд с единым intro-card и субтитрами.",
+        "variants": [
+          "A: представитель Avdar",
+          "B: независимый creator с явной маркировкой сотрудничества"
+        ],
+        "markets": [
+          "DE",
+          "DK",
+          "PL"
+        ],
+        "primary_read": [
+          "episode completion",
+          "saves",
+          "profile-to-PDP progression"
+        ]
+      }
+    },
+    {
+      "id": "CP-09",
+      "name": "Уход как полезное медиа",
+      "client_takeaway": "Care-content способен привлекать сохранения и одновременно снижать тревогу о сложном премиальном материале.",
+      "product_families": [
+        "wool / yak / cashmere throws",
+        "cashmere and wool scarves",
+        "shawls",
+        "gloves",
+        "wool socks"
+      ],
+      "first_frame_formula": "Неожиданное, но утверждённое действие по уходу + вопрос «так можно?»; ответ и care-label появляются сразу.",
+      "proof_mechanism": [
+        "официальная инструкция конкретного SKU",
+        "показ инструмента и последовательности",
+        "видимый результат без недоказанных before/after claims"
+      ],
+      "cta_funnel": {
+        "stage": "awareness / retention",
+        "cta": "Сохранить инструкцию / открыть care guide",
+        "route": "care hub с product links и post-purchase email"
+      },
+      "strongest_source_ids": [
+        "TT-012",
+        "WEB-020",
+        "WEB-019",
+        "WEB-007",
+        "WEB-001"
+      ],
+      "observed_signal": "TT-012 — самый большой публичный отклик выборки: 12.8m views и 12,164 saves. Это сигнал силы неожиданного ritual hook, но не разрешение повторять чистку снегом.",
+      "evidence_role": "metric_signal",
+      "risk_caveat": "Методы ухода различаются по волокну, окраске и конструкции. Не повторять snow-cleaning или другие бытовые советы до письменного подтверждения технологом/поставщиком.",
+      "proposed_avdar_test": {
+        "asset": "Три ролика 9–15 секунд по утверждённым care steps и одна печатная care-card в заказе.",
+        "variants": [
+          "A: вопрос-миф",
+          "B: пошаговая инструкция без провокации"
+        ],
+        "markets": [
+          "DE",
+          "NL",
+          "SE",
+          "FI"
+        ],
+        "primary_read": [
+          "saves",
+          "shares",
+          "care-guide visits",
+          "support contacts by care topic"
+        ]
+      }
+    },
+    {
+      "id": "CP-10",
+      "name": "Честное объяснение премиальной цены",
+      "client_takeaway": "Высокую цену лучше не маскировать: показать масштаб изделия, материал, труд, сервис и реальный остаток в одной короткой логике.",
+      "product_families": [
+        "cashmere scarf",
+        "yak / cashmere throws",
+        "premium gift boxes"
+      ],
+      "first_frame_formula": "Товар в масштабе + цена или вопрос «что входит в цену?»; затем 3–4 доказуемых причины без абстрактной «роскоши».",
+      "proof_mechanism": [
+        "точный состав и параметры",
+        "документированный труд и происхождение",
+        "reviews, sample, repair, return or delivery service",
+        "реальный остаток или sold-out status"
+      ],
+      "cta_funnel": {
+        "stage": "consideration → conversion",
+        "cta": "Сравнить / заказать образец / узнать наличие / купить",
+        "route": "value-explainer → PDP; sample или notify route для дорогих / отсутствующих SKU"
+      },
+      "strongest_source_ids": [
+        "TT-014",
+        "TT-015",
+        "WEB-012",
+        "WEB-013",
+        "WEB-016",
+        "TT-004"
+      ],
+      "observed_signal": "TT-014: 91.2k views, но сравнительно слабые реакции; полезен как гипотеза об objection hook. WEB-012/013/016 дают proof stack, не performance data.",
+      "evidence_role": "mixed",
+      "risk_caveat": "Прямое раскрытие цены может отпугнуть холодную аудиторию. Не использовать ложный дефицит, непроверенный срок службы или чужие числа труда.",
+      "proposed_avdar_test": {
+        "asset": "Carousel «что входит в цену» и 20-секундный founder cut отдельно для cashmere scarf и yak throw.",
+        "variants": [
+          "A: цена в первом кадре",
+          "B: сначала масштаб и материал, цена в третьем кадре"
+        ],
+        "markets": [
+          "DE",
+          "NL",
+          "SE"
+        ],
+        "primary_read": [
+          "qualified PDP click-through",
+          "sample or notify requests",
+          "add-to-cart",
+          "checkout initiation"
+        ]
+      }
+    }
+  ],
+  "recommended_test_order": [
+    {
+      "wave": 1,
+      "patterns": [
+        "CP-01",
+        "CP-04",
+        "CP-05",
+        "CP-07"
+      ],
+      "reason": "Быстро снимаются, покрывают все пять launch-моделей и проверяют первые 2 секунды, use-case и bundle route."
+    },
+    {
+      "wave": 2,
+      "patterns": [
+        "CP-03",
+        "CP-06",
+        "CP-10"
+      ],
+      "reason": "Требуют готовых PDP, подтверждённых параметров, цен и логистики."
+    },
+    {
+      "wave": 3,
+      "patterns": [
+        "CP-02",
+        "CP-08",
+        "CP-09"
+      ],
+      "reason": "Нужны собственные материалы цепочки поставок, спикер и утверждённые care claims."
+    }
+  ],
+  "presentation_outline": [
+    {
+      "slide": 1,
+      "title": "Как Avdar должен выглядеть и продавать",
+      "decision": "Creative system = tactile desire + verifiable proof + short path to the right offer.",
+      "screenshot_evidence": [
+        "WEB-012",
+        "IG-003",
+        "TT-012"
+      ],
+      "evidence_use": "Три небольших подписанных crop показывают три механики: цифры, трансформация, полезный hook. Не использовать их как фон."
+    },
+    {
+      "slide": 2,
+      "title": "Что реально изучено",
+      "decision": "52 refs: 20 sites, 16 Instagram, 16 TikTok; только часть имеет публичные metric signals.",
+      "screenshot_evidence": [
+        "WEB-001",
+        "WEB-010",
+        "WEB-013",
+        "WEB-019"
+      ],
+      "evidence_use": "Контактный лист с ID и статусом capture; рядом легенда metric signal / visual reference / unavailable."
+    },
+    {
+      "slide": 3,
+      "title": "Что метрики доказывают — и чего не доказывают",
+      "decision": "Public engagement помогает выбрать hooks, но не подтверждает продажи, reach или ROAS.",
+      "screenshot_evidence": [
+        "TT-001",
+        "TT-012",
+        "IG-010",
+        "IG-016"
+      ],
+      "evidence_use": "У каждого кадра показать наблюдаемый count, рынок и caveat; скрытые показатели явно пометить n/a."
+    },
+    {
+      "slide": 4,
+      "title": "Первые 2 секунды: четыре формулы",
+      "decision": "Приоритет hooks: tactile macro, seasonal conflict, transformation, quantified proof.",
+      "screenshot_evidence": [
+        "TT-001",
+        "IG-004",
+        "IG-003",
+        "WEB-012"
+      ],
+      "evidence_use": "Одинаковые по размеру crops с подписями «что видим → почему это полезно Avdar»."
+    },
+    {
+      "slide": 5,
+      "title": "Шарфы и шали: показать драпировку, затем доказательство",
+      "decision": "Hero sequence: движение → 3 способа ношения → состав/размер → локальный PDP.",
+      "screenshot_evidence": [
+        "IG-003",
+        "IG-014",
+        "WEB-001",
+        "WEB-007",
+        "WEB-008"
+      ],
+      "evidence_use": "Сопоставить social first-frame с чистым desktop/mobile PDP; WEB-001 и WEB-007 — проверяемые site captures."
+    },
+    {
+      "slide": 6,
+      "title": "Носки: от одной пары к комплекту",
+      "decision": "Single pair приобретает смысл через холод/образ; pack — через роли, цвета и прозрачную экономию.",
+      "screenshot_evidence": [
+        "IG-004",
+        "IG-005",
+        "TT-008",
+        "WEB-010"
+      ],
+      "evidence_use": "WEB-010 доказывает локальный price/size/logistics layer; social refs показывают acquisition hooks."
+    },
+    {
+      "slide": 7,
+      "title": "Пледы: масштаб, фактура и измеримые причины цены",
+      "decision": "Показывать плед в комнате, на человеке, macro и в spec-card; не оставлять его абстрактным прямоугольником.",
+      "screenshot_evidence": [
+        "WEB-012",
+        "WEB-013",
+        "IG-010",
+        "IG-011",
+        "TT-015"
+      ],
+      "evidence_use": "Два clean PDP captures доказывают разные proof systems; social crops доказывают use-case and mood."
+    },
+    {
+      "slide": 8,
+      "title": "Перчатки: честная функция плюс cross-sell",
+      "decision": "Hero product shot → warmth/limitations → размер → complete look with scarf.",
+      "screenshot_evidence": [
+        "WEB-019",
+        "IG-012",
+        "IG-013",
+        "WEB-018",
+        "WEB-020"
+      ],
+      "evidence_use": "WEB-019 desktop/mobile — основной UI proof; остальные кадры подписываются как cross-sell, archive и care hypotheses."
+    },
+    {
+      "slide": 9,
+      "title": "Монголия и материал: доказательство вместо декора",
+      "decision": "История происхождения должна заканчиваться фактом, связанным с конкретным SKU.",
+      "screenshot_evidence": [
+        "IG-001",
+        "IG-002",
+        "WEB-013",
+        "IG-015"
+      ],
+      "evidence_use": "Показать сильный пример цепочки и рядом антипример unsupported claim; каждый caption указывает, что можно и нельзя перенести."
+    },
+    {
+      "slide": 10,
+      "title": "Gift boxes и family kits: один экран снимает выбор",
+      "decision": "Recipient role / budget → visible contents → delivery certainty → checkout.",
+      "screenshot_evidence": [
+        "IG-005",
+        "WEB-016",
+        "WEB-010",
+        "IG-006"
+      ],
+      "evidence_use": "Аннотировать упаковку, bundle math и delivery proof; слабый IG-006 не представлять как winning ad."
+    },
+    {
+      "slide": 11,
+      "title": "Локализация и claims guardrails",
+      "decision": "Язык, валюта, доставка, возврат и способы оплаты локализуются; product claims остаются одинаково доказуемыми.",
+      "screenshot_evidence": [
+        "WEB-007",
+        "WEB-010",
+        "WEB-004",
+        "WEB-019"
+      ],
+      "evidence_use": "Четыре локальных интерфейсных crop: NL, PL, DK mobile-only и SE/EU; WEB-004 desktop и WEB-017 product proof исключены."
+    },
+    {
+      "slide": 12,
+      "title": "Что снять первым: три волны тестов",
+      "decision": "Wave 1 tests hooks; Wave 2 tests offer/PDP proof; Wave 3 builds origin, education and care assets.",
+      "screenshot_evidence": [
+        "TT-001",
+        "IG-003",
+        "IG-004",
+        "WEB-010",
+        "WEB-012",
+        "IG-005",
+        "WEB-013",
+        "IG-001",
+        "IG-007",
+        "TT-012"
+      ],
+      "evidence_use": "Не вставлять новые screenshots: использовать миниатюры уже показанных доказательств рядом с test card и decision metric."
+    }
+  ],
+  "presentation_evidence_rules": [
+    "Каждый screenshot получает source ID, рынок, дату среза и одну наблюдаемую деталь.",
+    "Под screenshot всегда отделять факт от вывода Avdar.",
+    "Metric count показывать только там, где он был виден; hidden или n/a не заменять оценкой.",
+    "Не использовать screenshot как полноэкранный декоративный фон.",
+    "Кадрировать только доказательную область, но сохранять небольшой context thumbnail.",
+    "WEB-004 использовать только mobile; WEB-017 не использовать как доказательство product page.",
+    "Права на чужой контент не предполагаются; презентация остаётся исследовательской и внутренней."
+  ],
+  "limitations": [
+    "Public social metrics are dynamic and were observed on 2026-09-15.",
+    "Instagram may hide likes or views; carousels do not expose comparable view counts.",
+    "TikTok audience geography is unknown for many global references.",
+    "Competitor statements about fibre, welfare, process, durability or care are not evidence for Avdar.",
+    "No conclusion about sales, conversion or ROAS is made from these references."
+  ]
+}

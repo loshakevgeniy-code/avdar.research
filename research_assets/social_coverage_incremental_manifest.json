@@ -1,0 +1,454 @@
+{
+  "title": "Avdar Market — incremental manifest покрытия товарных групп в Instagram и TikTok",
+  "snapshot_date": "2026-09-15",
+  "language": "ru",
+  "scope": {
+    "baseline_manifest": "/Users/evgeniyloshak/Documents/ECOM/research_assets/social_evidence_manifest.json",
+    "baseline_sha256": "74f805203bf42d82c82bbd8e75be93fc78061b1a12f489f82660eb14625b4406",
+    "baseline_reference_count": 32,
+    "baseline_instagram_count": 16,
+    "baseline_tiktok_count": 16,
+    "incremental_reference_count": 5,
+    "resulting_reference_count": 37,
+    "google_sheet_edited": false,
+    "research_rule": "Добавлена одна проверяемая публичная публикация только в каждую ранее пустую ячейку 7 товарных групп × 2 платформы.",
+    "interaction_policy": "Только чтение публичных страниц и локальное воспроизведение public player; без лайков, подписок, комментариев, сохранений, сообщений и обхода CAPTCHA."
+  },
+  "product_groups": [
+    "Кашемировый шарф",
+    "Шерстяной шарф",
+    "Шерстяные носки",
+    "Плед из яка",
+    "Другие пледы",
+    "Шали",
+    "Перчатки"
+  ],
+  "coverage_summary": {
+    "cells_total": 14,
+    "covered_before": 9,
+    "missing_before": 5,
+    "coverage_before_pct": 64.286,
+    "covered_after": 14,
+    "missing_after": 0,
+    "coverage_after_pct": 100,
+    "instagram_covered_before": 6,
+    "instagram_covered_after": 7,
+    "tiktok_covered_before": 3,
+    "tiktok_covered_after": 7
+  },
+  "coverage_matrix_before": [
+    {
+      "product_group": "Кашемировый шарф",
+      "instagram": {
+        "covered": true,
+        "count": 2,
+        "reference_ids": ["IG-003", "IG-014"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 5,
+        "reference_ids": ["TT01", "TT02", "TT03", "TT04", "TT05"]
+      }
+    },
+    {
+      "product_group": "Шерстяной шарф",
+      "instagram": {
+        "covered": false,
+        "count": 0,
+        "reference_ids": []
+      },
+      "tiktok": {
+        "covered": false,
+        "count": 0,
+        "reference_ids": []
+      }
+    },
+    {
+      "product_group": "Шерстяные носки",
+      "instagram": {
+        "covered": true,
+        "count": 3,
+        "reference_ids": ["IG-004", "IG-005", "IG-016"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 5,
+        "reference_ids": ["TT06", "TT07", "TT08", "TT09", "TT10"]
+      }
+    },
+    {
+      "product_group": "Плед из яка",
+      "instagram": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["IG-015"]
+      },
+      "tiktok": {
+        "covered": false,
+        "count": 0,
+        "reference_ids": []
+      }
+    },
+    {
+      "product_group": "Другие пледы",
+      "instagram": {
+        "covered": true,
+        "count": 3,
+        "reference_ids": ["IG-006", "IG-010", "IG-011"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 6,
+        "reference_ids": ["TT11", "TT12", "TT13", "TT14", "TT15", "TT16"]
+      }
+    },
+    {
+      "product_group": "Шали",
+      "instagram": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["IG-009"]
+      },
+      "tiktok": {
+        "covered": false,
+        "count": 0,
+        "reference_ids": []
+      }
+    },
+    {
+      "product_group": "Перчатки",
+      "instagram": {
+        "covered": true,
+        "count": 2,
+        "reference_ids": ["IG-012", "IG-013"]
+      },
+      "tiktok": {
+        "covered": false,
+        "count": 0,
+        "reference_ids": []
+      }
+    }
+  ],
+  "gaps_before": [
+    {
+      "product_group": "Шерстяной шарф",
+      "platform": "Instagram",
+      "filled_by": "IG-017"
+    },
+    {
+      "product_group": "Шерстяной шарф",
+      "platform": "TikTok",
+      "filled_by": "TT17"
+    },
+    {
+      "product_group": "Плед из яка",
+      "platform": "TikTok",
+      "filled_by": "TT18"
+    },
+    {
+      "product_group": "Шали",
+      "platform": "TikTok",
+      "filled_by": "TT19"
+    },
+    {
+      "product_group": "Перчатки",
+      "platform": "TikTok",
+      "filled_by": "TT20"
+    }
+  ],
+  "incremental_references": [
+    {
+      "id": "IG-017",
+      "platform": "Instagram",
+      "product_group": "Шерстяной шарф",
+      "brand_or_account": "useless_dk · Signe",
+      "direct_url": "https://www.instagram.com/useless_dk/reel/CViXWPqo1gW/",
+      "format": "Reel · около 48 секунд · практический tutorial из трёх способов",
+      "published_at": "2021-10-27",
+      "first_screen_or_two_seconds": "Размытый крупный план серого шарфа и автора; по центру крупный serif-титр «3 WAYS TO TIE A BIG WOOL SCARF» — «3 способа завязать большой шерстяной шарф».",
+      "visual_device": "Один предмет и один человек в спокойном интерьере; крупный план рук; три последовательно пронумерованных способа; подписи внутри кадра.",
+      "proof_or_trust": "Автор показывает действие на реальном шарфе и формулирует конкретную проблему: объём ткани и укладка волос. В описании раскрыты три способа и даны альтернативные бренды; сам шарф 2017 года уже не продаётся.",
+      "cta_and_path": "Мягкий CTA «Hope you find it useful»; механика рассчитана на сохранение/пересылку, прямой продажи нет.",
+      "visible_metrics": {
+        "views": null,
+        "likes": 3062,
+        "comments": 35,
+        "reposts": 1,
+        "shares": null,
+        "saves": null,
+        "source": "Лайки и комментарии — meta description официальной страницы; 1 репост — видимый счётчик в авторизованном Instagram UI. Просмотры, отправки и сохранения на этой поверхности не показаны."
+      },
+      "evidence_strength": "Сильный evergreen-референс по публичной вовлечённости; метрики не доказывают продажи.",
+      "applicable_to_avdar": "Снять русскоязычный Reel «3 способа носить большой шерстяной шарф» на одном SKU: общий титр в первом кадре, затем три коротких варианта и подсказка для волос. CTA: «Сохраните и выберите свой способ»; состав и SKU указать прямо в подписи.",
+      "rights_and_limitations": "Публикация 2021 года; показанный товар снят с продажи. Контент автора нельзя переносить в рекламу без разрешения. Применима механика tutorial, а не кадры или текст. Публичная вовлечённость не равна продажам.",
+      "verification": {
+        "http_status": 200,
+        "official_page_loaded": true,
+        "captcha_seen": false,
+        "checked_at": "2026-09-15",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_incremental/IG-017_useless_dk_wool_scarf_desktop.jpg"
+        ]
+      }
+    },
+    {
+      "id": "TT17",
+      "platform": "TikTok",
+      "product_group": "Шерстяной шарф",
+      "brand_or_account": "Anna Rani Specht · @annaranispecht",
+      "direct_url": "https://www.tiktok.com/@annaranispecht/video/7557831113612315926",
+      "format": "Видео · 154 секунды · экспертный value-for-money разбор",
+      "published_at": "2025-10-05T20:04:48Z",
+      "first_screen_or_two_seconds": "Лицо автора поверх скриншота карточки шарфа и крупный тезис «Diese Schals sind euer Geld tatsächlich wert» — «Эти шарфы действительно стоят своих денег»; сразу видна цена €160.",
+      "visual_device": "Talking head в нижней части экрана + карточка товара/цена на фоне; последовательное сравнение брендов; контрастный белый тезис в плашке.",
+      "proof_or_trust": "Автор называет марки, советует проверять общую конструкцию и публично исправляет ошибку в составе первого шарфа: по сайту бренда это 80% альпака и 20% полиамид. Самокоррекция усиливает доверие, но составы остаются данными третьих лиц.",
+      "cta_and_path": "Вопрос аудитории о любимых марках и моделях провоцирует комментарии; прямой коммерческий CTA отсутствует.",
+      "visible_metrics": {
+        "views": 87900,
+        "likes": 4237,
+        "comments": 87,
+        "shares": 173,
+        "saves": 1822,
+        "source": "Официальная публичная TikTok page hydration; лайки, комментарии и репосты дополнительно видны в public player."
+      },
+      "derived_public_rates_pct": {
+        "like_rate": 4.82,
+        "comment_rate": 0.099,
+        "share_rate": 0.197,
+        "save_rate": 2.073,
+        "visible_interaction_rate": 7.189
+      },
+      "evidence_strength": "Сильный образовательный референс: 87,9 тыс. просмотров и 2,073% сохранений; длинный формат требует адаптации.",
+      "applicable_to_avdar": "Сделать серию «За что вы платите в хорошем шерстяном шарфе»: макро волокна, плотность, край, бирка состава, один вывод на кадр. Для короткой версии оставить 20–35 секунд и вести на карточку конкретного SKU.",
+      "rights_and_limitations": "Немецкоязычная аудитория и 154 секунды ограничивают прямой перенос. Нельзя повторять чужие сравнения и логотипы без проверки. Любые утверждения о составе Avdar должны опираться на документы SKU. Видео и кадры требуют разрешения правообладателя; метрики не равны продажам.",
+      "verification": {
+        "http_status": 200,
+        "official_page_hydration_ok": true,
+        "captcha_seen_in_public_player": false,
+        "checked_at": "2026-09-15",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_incremental/TT17_anna_rani_wool_scarf_official_player.jpg"
+        ]
+      }
+    },
+    {
+      "id": "TT18",
+      "platform": "TikTok",
+      "product_group": "Плед из яка",
+      "brand_or_account": "FASHION & JEWELS · @fashionandjewelsindu",
+      "direct_url": "https://www.tiktok.com/@fashionandjewelsindu/video/7304452210694425888",
+      "format": "Видео · 33 секунды · ассортиментная демонстрация",
+      "published_at": "2023-11-23T00:45:43Z",
+      "first_screen_or_two_seconds": "Быстрый zoom-burst раскрывает стопку ярких узорных изделий; варианты сразу помечены F-1…F-8. Подпись называет Pashmina & Yak Wools и категории shawl / blanket / scarf.",
+      "visual_device": "Стопка цветовых вариантов + буквенно-цифровые коды выбора; размытый фон дублирует вертикальный кадр; быстрый переход создаёт визуальный reveal.",
+      "proof_or_trust": "В кадре показан фактический ассортимент, а публичное описание прямо заявляет Pashmina & Yak Wools. Процент состава, происхождение и принадлежность каждого показанного варианта к яку независимо не подтверждены.",
+      "cta_and_path": "Явного CTA нет; коды вариантов создают неявный повод написать номер понравившегося изделия.",
+      "visible_metrics": {
+        "views": 72000,
+        "likes": 580,
+        "comments": 11,
+        "shares": 12,
+        "saves": 41,
+        "source": "Официальная публичная TikTok page hydration; лайки, комментарии и репосты дополнительно видны в public player."
+      },
+      "derived_public_rates_pct": {
+        "like_rate": 0.806,
+        "comment_rate": 0.015,
+        "share_rate": 0.017,
+        "save_rate": 0.057,
+        "visible_interaction_rate": 0.894
+      },
+      "evidence_strength": "Средний: заметный охват 72 тыс., но слабая видимая вовлечённость; прежде всего визуальный референс.",
+      "applicable_to_avdar": "Показать 4–6 пледов из яка одной стопкой, дать каждому короткий код/название цвета и попросить выбрать вариант. Усилить слабое место оригинала: макро фактуры, точный состав и ссылка на конкретную карточку товара.",
+      "rights_and_limitations": "Исходная публикация смешивает шаль, плед и шарф, поэтому это референс механики выбора, а не чистое доказательство по SKU. Данные о составе — заявление автора. Старый ролик и низкая вовлечённость; контент нельзя переиспользовать без разрешения; метрики не доказывают продажи.",
+      "verification": {
+        "http_status": 200,
+        "official_page_hydration_ok": true,
+        "captcha_seen_in_public_player": false,
+        "checked_at": "2026-09-15",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_incremental/TT18_fashion_jewels_yak_wool_official_player.jpg"
+        ]
+      }
+    },
+    {
+      "id": "TT19",
+      "platform": "TikTok",
+      "product_group": "Шали",
+      "brand_or_account": "Imtizaaj · @imtizaaj",
+      "direct_url": "https://www.tiktok.com/@imtizaaj/video/7560984243199921415",
+      "format": "Видео · 26 секунд · ассортиментный reveal с ценой",
+      "published_at": "2025-10-14T08:00:34Z",
+      "first_screen_or_two_seconds": "Полный стеллаж с десятками шалей; красная плашка «Shawl» сразу называет категорию, нижняя строка даёт full size и диапазон цены.",
+      "visual_device": "Вертикальная панорама по плотному ассортименту на рейле; чередование светлых и тёмных узоров; категория и цена видны без ожидания.",
+      "proof_or_trust": "Реальный магазинный ассортимент показан одним непрерывным кадром; описание содержит диапазон цены, условия доставки/оплаты и локацию. Это снижает неопределённость покупки, но не подтверждает состав или качество.",
+      "cta_and_path": "Прямой заказ через WhatsApp и офлайн-магазин; для Avdar путь лучше заменить на карточку SKU/подборку на сайте.",
+      "visible_metrics": {
+        "views": 1700000,
+        "likes": 34500,
+        "comments": 499,
+        "shares": 3845,
+        "saves": 3243,
+        "source": "Официальная публичная TikTok page hydration; лайки, комментарии и репосты дополнительно видны в public player."
+      },
+      "derived_public_rates_pct": {
+        "like_rate": 2.029,
+        "comment_rate": 0.029,
+        "share_rate": 0.226,
+        "save_rate": 0.191,
+        "visible_interaction_rate": 2.476
+      },
+      "evidence_strength": "Сильный по масштабу: 1,7 млн просмотров, 3 845 репостов и 3 243 сохранения; коммерческую конверсию не видно.",
+      "applicable_to_avdar": "Снять clean-premium версию: 5–7 шалей на рейле, медленный проход, на первом экране «Шали из …», затем размер, состав и цена. CTA: «Посмотреть все цвета» со ссылкой на подборку, а не заказ в мессенджере.",
+      "rights_and_limitations": "Южноазиатский массовый рынок, локальная цена и торговый визуальный язык могут не совпасть с позиционированием Avdar. Состав в исходнике не доказан. Переносима структура reveal, не дизайн или видео. Метрики не равны продажам; права принадлежат автору.",
+      "verification": {
+        "http_status": 200,
+        "official_page_hydration_ok": true,
+        "captcha_seen_in_public_player": false,
+        "checked_at": "2026-09-15",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_incremental/TT19_imtizaaj_wool_shawl_official_player.jpg"
+        ]
+      }
+    },
+    {
+      "id": "TT20",
+      "platform": "TikTok",
+      "product_group": "Перчатки",
+      "brand_or_account": "Eva · @gladdelepel",
+      "direct_url": "https://www.tiktok.com/@gladdelepel/video/7574432938318679328",
+      "format": "Видео · 12 секунд · maker diary / процесс вязания",
+      "published_at": "2025-11-19T13:48:29Z",
+      "first_screen_or_two_seconds": "Автор держит клубок перед камерой, на одной руке уже надета незаконченная перчатка со спицей; субтитр обещает «my first ever pair of gloves».",
+      "visual_device": "Лицо + материал + незавершённый продукт в одном кадре; честная «первая попытка» вместо студийной полировки; крупный план фактуры и инструмента.",
+      "proof_or_trust": "Видны пряжа, спица и изделие в процессе. В описании заявлена смесь тонкой merino- и nylon-пряжи; это прямое доказательство процесса автора, но не доказательство характеристик готовой розничной пары.",
+      "cta_and_path": "Неявный serial CTA: дождаться завершённой цветной пары; прямой продажи нет.",
+      "visible_metrics": {
+        "views": 29200,
+        "likes": 2584,
+        "comments": 23,
+        "shares": 14,
+        "saves": 208,
+        "source": "Официальная публичная TikTok page hydration; лайки, комментарии и репосты дополнительно видны в public player."
+      },
+      "derived_public_rates_pct": {
+        "like_rate": 8.849,
+        "comment_rate": 0.079,
+        "share_rate": 0.048,
+        "save_rate": 0.712,
+        "visible_interaction_rate": 9.688
+      },
+      "evidence_strength": "Сильный по отношению видимых взаимодействий к просмотрам — 9,688%; референс процесса, не готовой товарной карточки.",
+      "applicable_to_avdar": "Серия «От нити до перчатки»: клубок/сырьё в первые 2 секунды, затем вязка, отделка, готовая пара и примерка. Для коммерческой версии добавить точный состав, тепло/уход только с подтверждением и CTA на SKU.",
+      "rights_and_limitations": "DIY-контент и смесь merino/nylon не эквивалентны готовым перчаткам Avdar. Эффект может идти от личности автора и ремесленного сообщества. Нельзя копировать кадры или текст без разрешения; метрики не доказывают продажи.",
+      "verification": {
+        "http_status": 200,
+        "official_page_hydration_ok": true,
+        "captcha_seen_in_public_player": false,
+        "checked_at": "2026-09-15",
+        "screenshot_paths": [
+          "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_incremental/TT20_eva_merino_gloves_official_player.jpg"
+        ]
+      }
+    }
+  ],
+  "coverage_matrix_after": [
+    {
+      "product_group": "Кашемировый шарф",
+      "instagram": {
+        "covered": true,
+        "count": 2,
+        "reference_ids": ["IG-003", "IG-014"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 5,
+        "reference_ids": ["TT01", "TT02", "TT03", "TT04", "TT05"]
+      }
+    },
+    {
+      "product_group": "Шерстяной шарф",
+      "instagram": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["IG-017"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["TT17"]
+      }
+    },
+    {
+      "product_group": "Шерстяные носки",
+      "instagram": {
+        "covered": true,
+        "count": 3,
+        "reference_ids": ["IG-004", "IG-005", "IG-016"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 5,
+        "reference_ids": ["TT06", "TT07", "TT08", "TT09", "TT10"]
+      }
+    },
+    {
+      "product_group": "Плед из яка",
+      "instagram": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["IG-015"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["TT18"]
+      }
+    },
+    {
+      "product_group": "Другие пледы",
+      "instagram": {
+        "covered": true,
+        "count": 3,
+        "reference_ids": ["IG-006", "IG-010", "IG-011"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 6,
+        "reference_ids": ["TT11", "TT12", "TT13", "TT14", "TT15", "TT16"]
+      }
+    },
+    {
+      "product_group": "Шали",
+      "instagram": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["IG-009"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["TT19"]
+      }
+    },
+    {
+      "product_group": "Перчатки",
+      "instagram": {
+        "covered": true,
+        "count": 2,
+        "reference_ids": ["IG-012", "IG-013"]
+      },
+      "tiktok": {
+        "covered": true,
+        "count": 1,
+        "reference_ids": ["TT20"]
+      }
+    }
+  ],
+  "evidence_policy": {
+    "public_metrics_mean": "Публично видимая вовлечённость и охват на момент среза 15.09.2026.",
+    "public_metrics_do_not_mean": "Продажи, атрибутированную конверсию, CAC или ROAS.",
+    "rights": "Скриншоты предназначены для исследовательского анализа с указанием источника. Для рекламы нельзя использовать чужие фото, видео, музыку, текст или лицо автора без разрешения.",
+    "claims": "Состав, происхождение, тепло, долговечность и экологические свойства Avdar должны подтверждаться на уровне конкретного SKU; заявления конкурентов не переносить как факт."
+  }
+}

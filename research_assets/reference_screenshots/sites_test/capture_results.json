@@ -1,0 +1,21 @@
+[
+  {
+    "id": "WEB-TEST-01",
+    "slug": "purschoen_cashmere_scarf",
+    "url": "https://purschoen.de/collections/slim/products/kaschmirschal-slim-natural-einfarbig-100-cashmere-purschoen",
+    "desktop": {
+      "ok": true,
+      "title": "Kaschmirschal Slim Natural – einfarbig 100 % Cashmere | PURSCHOEN",
+      "finalUrl": "https://purschoen.de/collections/slim/products/kaschmirschal-slim-natural-einfarbig-100-cashmere-purschoen",
+      "topPath": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/sites_test/WEB-TEST-01_purschoen_cashmere_scarf_desktop_top.png",
+      "fullPath": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/sites_test/WEB-TEST-01_purschoen_cashmere_scarf_desktop_full.png"
+    },
+    "mobile": {
+      "ok": true,
+      "title": "Kaschmirschal Slim Natural – einfarbig 100 % Cashmere | PURSCHOEN",
+      "finalUrl": "https://purschoen.de/collections/slim/products/kaschmirschal-slim-natural-einfarbig-100-cashmere-purschoen",
+      "topPath": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/sites_test/WEB-TEST-01_purschoen_cashmere_scarf_mobile_top.png",
+      "fullPath": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/sites_test/WEB-TEST-01_purschoen_cashmere_scarf_mobile_full.png"
+    }
+  }
+]

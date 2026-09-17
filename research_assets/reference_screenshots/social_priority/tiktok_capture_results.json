@@ -1,0 +1,562 @@
+{
+  "snapshot_date": "2026-09-15",
+  "source_policy": {
+    "metrics": "fresh public counters parsed from the official TikTok page hydration payload",
+    "screenshots": "official detail pages only; no likes, follows, comments, messages or media downloads",
+    "interpretation": "public engagement is not sales, attributed conversion or ROAS"
+  },
+  "rows": [
+    {
+      "id": "TT01",
+      "product_group": "Кашемировый шарф",
+      "account": "Miranda’s World",
+      "format_from_sheet": "Короткое видео · 24 секунды",
+      "first_frame_from_sheet": "Крупный текст «The softest scarf»; шарф сразу показывают вблизи",
+      "url": "https://www.tiktok.com/@mirandasdreamworld/video/7560659434997959958",
+      "slug": "miranda_s_world",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@mirandasdreamworld/video/7560659434997959958",
+        "video_id": "7560659434997959958",
+        "author": "mirandasdreamworld",
+        "description": "Feels like cashmere! Scarf season is just about here and these scarves are so soft and cosy. #scarfseason #winterscarf #scarf #scarves #creatorsearchinsights ",
+        "created_at": "2025-10-13T11:00:10.000Z",
+        "duration_seconds": 24,
+        "visible_metrics": {
+          "views": 693800,
+          "likes": 4232,
+          "comments": 24,
+          "shares": 200,
+          "saves": 1054
+        },
+        "is_ad": true,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ogyGLDe4bIfpUvVsICk7Ie2xI22gRIAGwLXjA9~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=SmAJGGOx7ffpQmm9MabRVkD%2Ft2o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7560659434997959958?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@mirandasdreamworld/video/7560659434997959958",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": false,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT01_miranda_s_world_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT02",
+      "product_group": "Кашемировый шарф",
+      "account": "Robyn",
+      "format_from_sheet": "Короткое видео · 5 секунд",
+      "first_frame_from_sheet": "Текст «Got a cashmere scarf and this is my life now» появляется сразу",
+      "url": "https://www.tiktok.com/@robyn_nagioff/video/7591823784114523414",
+      "slug": "robyn",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@robyn_nagioff/video/7591823784114523414",
+        "video_id": "7591823784114523414",
+        "author": "robyn_nagioff",
+        "description": "#biglittlelies ",
+        "created_at": "2026-01-05T10:33:54.000Z",
+        "duration_seconds": 5,
+        "visible_metrics": {
+          "views": 237700,
+          "likes": 27300,
+          "comments": 52,
+          "shares": 679,
+          "saves": 2810
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owdVaFIeQIgBvJALyJSI3GyDtQevIaReAAILaj~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=T6O4COH6rk3hvEKaXBIDbZSgwn0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7591823784114523414?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@robyn_nagioff/video/7591823784114523414",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": false,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT02_robyn_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT03",
+      "product_group": "Кашемировый шарф",
+      "account": "OFT Stuttgart",
+      "format_from_sheet": "Короткое видео · 30 секунд",
+      "first_frame_from_sheet": "Крупный текст «Cashmere Schal 10€ 💜»",
+      "url": "https://www.tiktok.com/@oft.st/video/7674187190888418592",
+      "slug": "oft_stuttgart",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@oft.st/video/7674187190888418592",
+        "video_id": "7674187190888418592",
+        "author": "oft.st",
+        "description": "Cashmere Schal 💜 @OFT Köln @OFT Frankfurt @OFT Hamburg @OFT Dortmund #cashmere #schal #outfitideas #viral #balaklava ",
+        "created_at": "2026-08-15T09:25:48.000Z",
+        "duration_seconds": 30,
+        "visible_metrics": {
+          "views": 316100,
+          "likes": 7267,
+          "comments": 34,
+          "shares": 362,
+          "saves": 5348
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oAeAjFWjVQM5IAGbYDALfE8IQ0GHD7AIdgeYTi~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=jdGpGXA9OihZ%2BT7Wi2G0X9XIHog%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7674187190888418592?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@oft.st/video/7674187190888418592",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": false,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT03_oft_stuttgart_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT04",
+      "product_group": "Кашемировый шарф",
+      "account": "Izzyinthetrench",
+      "format_from_sheet": "Видео · 90 секунд",
+      "first_frame_from_sheet": "Сразу заявлена лимитированная коллекция Burberry Crystal",
+      "url": "https://www.tiktok.com/@izzyinthetrench/video/7672211322049793311",
+      "slug": "izzyinthetrench",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@izzyinthetrench/video/7672211322049793311",
+        "video_id": "7672211322049793311",
+        "author": "izzyinthetrench",
+        "description": "Burberry Crystal cashmere Scarf limited edition collection! •  ONLY available in store’s or text  +1 (848) 828-0609 • Less than 50 of each color made! Available now!! • NOT AVAILABLE ONLINE YET! Be the first and only to have this exclusive piece! • Dm, Comment or text +1 (848) 828-0609💕 • #Burberryclientadvisor #fyp #burberryscarf #limitededition #foryoupage",
+        "created_at": "2026-08-10T01:38:37.000Z",
+        "duration_seconds": 90,
+        "visible_metrics": {
+          "views": 90800,
+          "likes": 9609,
+          "comments": 123,
+          "shares": 1464,
+          "saves": 1327
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogFu6wpUeAFLIlHEEifS9jKCqO5fIXaFIbNAID~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=M14HJI9ojp9hCEf%2BOjMcDWuQul8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7672211322049793311?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@izzyinthetrench/video/7672211322049793311",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": true,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT04_izzyinthetrench_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT05",
+      "product_group": "Кашемировый шарф",
+      "account": "Burberry Outlet Cabazon",
+      "format_from_sheet": "Короткое видео · 14 секунд",
+      "first_frame_from_sheet": "Крупный текст «THE ICONIC BURBERRY CHECK»",
+      "url": "https://www.tiktok.com/@burberryoutletcabazon/video/7677874931039767838",
+      "slug": "burberry_outlet_cabazon",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@burberryoutletcabazon/video/7677874931039767838",
+        "video_id": "7677874931039767838",
+        "author": "burberryoutletcabazon",
+        "description": "The iconic Burberry Check 🖤 100% cashmere • Made in Scotland • Crafted through more than 30 steps. Available at Burberry Outlet 📍Cabazon DM for current price & availability.                                        Follow for more ✅ #Burberry #BurberryScarf #BurberryCheck #Cashmere #fyp ",
+        "created_at": "2026-08-25T07:56:57.000Z",
+        "duration_seconds": 14,
+        "visible_metrics": {
+          "views": 9953,
+          "likes": 432,
+          "comments": 3,
+          "shares": 32,
+          "saves": 48
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/o0IEoiNvi11AsmoI9KRQtVb2BpaBAhy5bISDE~tplv-tiktokx-dmt-logom:tos-useast8-i-0068-tx2/ogS6SiqCiICEA6R8qNfVEAjAIA0c1BKyiAMsBy.image?dr=10393&x-expires=1789639200&x-signature=kF0Y%2BQLm0b62ALHaYc0Q1vpocos%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT06",
+      "product_group": "Шерстяные носки",
+      "account": "trektwinz",
+      "format_from_sheet": "Короткое видео · 26 секунд",
+      "first_frame_from_sheet": "Разговорный тезис «Merino socks are AWESOME!!!»",
+      "url": "https://www.tiktok.com/@trektwinz/video/7592321077372587286",
+      "slug": "trektwinz",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@trektwinz/video/7592321077372587286",
+        "video_id": "7592321077372587286",
+        "author": "trektwinz",
+        "description": "Merino socks are AWESOME!!! #merino #outdoorgear #gorpcore #gorp #hiking ",
+        "created_at": "2026-01-06T18:43:28.000Z",
+        "duration_seconds": 26,
+        "visible_metrics": {
+          "views": 8966,
+          "likes": 216,
+          "comments": 3,
+          "shares": 16,
+          "saves": 42
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o8BvAjyfI0iQpyCwAmBdTtiq092rwA0ElGVKIC~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=JPSw3Ut2qjr%2Fk%2Fe%2F9CTWbz9FcNk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT07",
+      "product_group": "Шерстяные носки",
+      "account": "lulu",
+      "format_from_sheet": "Короткое видео · 10 секунд",
+      "first_frame_from_sheet": "POV-текст: «the night is calling u but its 0 degrees outside»",
+      "url": "https://www.tiktok.com/@luciastephensonn/video/7672304188159757588",
+      "slug": "lulu",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@luciastephensonn/video/7672304188159757588",
+        "video_id": "7672304188159757588",
+        "author": "luciastephensonn",
+        "description": "me and my long merino socks all the way 😛",
+        "created_at": "2026-08-10T07:38:58.000Z",
+        "duration_seconds": 10,
+        "visible_metrics": {
+          "views": 2754,
+          "likes": 121,
+          "comments": 1,
+          "shares": 2,
+          "saves": 6
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8MAfnggANeIvt4Uj0FCDZyRBEIpICF5VNr8fD~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=yCbe7nGhYiSABkloS4iaJo1xjyc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT08",
+      "product_group": "Шерстяные носки",
+      "account": "solekind",
+      "format_from_sheet": "Короткое видео · 5 секунд",
+      "first_frame_from_sheet": "Текст «Me when I match the colour of my socks with my outfit»",
+      "url": "https://www.tiktok.com/@solekind/video/7683105883483540757",
+      "slug": "solekind",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@solekind/video/7683105883483540757",
+        "video_id": "7683105883483540757",
+        "author": "solekind",
+        "description": "The ultimate cheat code for a great outfit #socks #smallbusiness #trending #merinowool #outfitideas ",
+        "created_at": "2026-09-08T10:14:51.000Z",
+        "duration_seconds": 5,
+        "visible_metrics": {
+          "views": 2247,
+          "likes": 118,
+          "comments": 3,
+          "shares": 9,
+          "saves": 7
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/owfi47T4PCDFzFCQVQJ64oA0nteABVc1DIjfEc~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=EoPrHbTe12Ex%2F8ttz1yqs158I9U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7683105883483540757?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@solekind/video/7683105883483540757",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": false,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT08_solekind_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT09",
+      "product_group": "Шерстяные носки",
+      "account": "S4Supply Europe",
+      "format_from_sheet": "Видео · 110 секунд",
+      "first_frame_from_sheet": "Тезис «Es geht kaum besser!» и английский дубль «One of the best out there!»",
+      "url": "https://www.tiktok.com/@s4supply/video/7631250986941599009",
+      "slug": "s4supply_europe",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@s4supply/video/7631250986941599009",
+        "video_id": "7631250986941599009",
+        "author": "s4supply",
+        "description": "🇩🇪: Es geht kaum besser! 🇬🇧: One of the best out there!  Hier gehts zu den Produkten: https://s4supplies.com/collections/point6-merino-wool-socken Pic by: @s4supply_actual #merinowolle #merino #merinosocken #perfektepassform  #operatorifestyle ",
+        "created_at": "2026-04-21T16:31:25.000Z",
+        "duration_seconds": 110,
+        "visible_metrics": {
+          "views": 1241,
+          "likes": 30,
+          "comments": 1,
+          "shares": 1,
+          "saves": 15
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oszA8DI0MRGhjfgot0eNLBPGeOMavTgIT6gFSM~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=VTtL04BJEWmfodQg2mWnSmza9Hs%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT10",
+      "product_group": "Шерстяные носки",
+      "account": "Holi.Zac × MARO",
+      "format_from_sheet": "Короткое видео · 35 секунд",
+      "first_frame_from_sheet": "Автор сразу отмечает MARO и показывает мериносовые носки",
+      "url": "https://www.tiktok.com/@holizac/video/7675004141567020319",
+      "slug": "holi_zac_maro",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@holizac/video/7675004141567020319",
+        "video_id": "7675004141567020319",
+        "author": "holizac",
+        "description": "@MARO merino wool socks 👏 Bravo my friends ",
+        "created_at": "2026-08-17T14:16:24.000Z",
+        "duration_seconds": 35,
+        "visible_metrics": {
+          "views": 2413,
+          "likes": 59,
+          "comments": 1,
+          "shares": 3,
+          "saves": 13
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/os61QOBIIiAiIm3EfCAAI7PiAYDWLTqv7DlIqF~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=fbtPR7LyTwA9SlKPoCUFiW6TEQ4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT11",
+      "product_group": "Другие пледы",
+      "account": "Laura · elle_macrame",
+      "format_from_sheet": "Короткое видео · 18 секунд",
+      "first_frame_from_sheet": "Крупная вязка и материал занимают почти весь кадр",
+      "url": "https://www.tiktok.com/@elle_macrame/video/7166947794073259270",
+      "slug": "laura_elle_macrame",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@elle_macrame/video/7166947794073259270",
+        "video_id": "7166947794073259270",
+        "author": "elle_macrame",
+        "description": "#lanamerinos #merinos #chunkyblanket #copertalanamerino #merinowool #chunkyknitblanket #homedecor #slowfashion #chunkyyarn #knitstagram #cozyhome #knittinginspirationc ",
+        "created_at": "2022-11-17T11:37:53.000Z",
+        "duration_seconds": 18,
+        "visible_metrics": {
+          "views": 66700,
+          "likes": 1295,
+          "comments": 29,
+          "shares": 157,
+          "saves": 276
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/3860aa854d8e4d7ca3d25766c38f0bc2_1668685075~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=RDB4E4pHegDaBT6pnPvpUtEb5RM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT12",
+      "product_group": "Другие пледы",
+      "account": "Kyana Sue Powers",
+      "format_from_sheet": "Короткое видео · 9 секунд",
+      "first_frame_from_sheet": "Текст «How my Icelandic husband cleans our wool blankets 🇮🇸❄️»",
+      "url": "https://www.tiktok.com/@kyanasue/video/7611997731170700566",
+      "slug": "kyana_sue_powers",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@kyanasue/video/7611997731170700566",
+        "video_id": "7611997731170700566",
+        "author": "kyanasue",
+        "description": "Have you ever tried this?? He literally ripped this blanket off me when I was watching tv and then covered it in snow 😂 #iceland #nordic #traditions ",
+        "created_at": "2026-02-28T19:18:57.000Z",
+        "duration_seconds": 9,
+        "visible_metrics": {
+          "views": 12800000,
+          "likes": 444100,
+          "comments": 1355,
+          "shares": 3185,
+          "saves": 12165
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oEALT0qMZKTgeDhr7qGnmgbVIRfjI6LAgfDIwy~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=%2BV9IkXbNCu8nvbnGkbjPfgcwVkQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7611997731170700566?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@kyanasue/video/7611997731170700566",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": false,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT12_kyana_sue_powers_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT13",
+      "product_group": "Другие пледы",
+      "account": "Americana Pipedream Apparel",
+      "format_from_sheet": "Короткое видео · 36 секунд",
+      "first_frame_from_sheet": "Фраза «French Navy Wool Blankets are now in stock!» и немедленный показ пледа",
+      "url": "https://www.tiktok.com/@americana.pipedream/video/7568905208344907063",
+      "slug": "americana_pipedream_apparel",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@americana.pipedream/video/7568905208344907063",
+        "video_id": "7568905208344907063",
+        "author": "americana.pipedream",
+        "description": "French Navy Wool Blankets are now in stock! 100% wool, made back in the 1950s and 1960s.  We have ‘em in two colors: Blue and ecru!",
+        "created_at": "2025-11-04T16:18:28.000Z",
+        "duration_seconds": 36,
+        "visible_metrics": {
+          "views": 574100,
+          "likes": 13800,
+          "comments": 139,
+          "shares": 354,
+          "saves": 2281
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ocQKGlgQECDACSbFi5BsspJdyPTDREKeQR1ofi~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=%2FBKiIs6rbY3k36c8%2BcVdC%2BQfHGQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7568905208344907063?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@americana.pipedream/video/7568905208344907063",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": false,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT13_americana_pipedream_apparel_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT14",
+      "product_group": "Другие пледы",
+      "account": "Zafira",
+      "format_from_sheet": "Короткое видео · 34 секунды",
+      "first_frame_from_sheet": "Фраза «When you realize the blanket costs more than your couch»",
+      "url": "https://www.tiktok.com/@zafirazaf_/video/7454585305123851525",
+      "slug": "zafira",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@zafirazaf_/video/7454585305123851525",
+        "video_id": "7454585305123851525",
+        "author": "zafirazaf_",
+        "description": "When you realize the blanket costs more than your couch. 🧡 #hermesblanket ",
+        "created_at": "2024-12-31T14:38:20.000Z",
+        "duration_seconds": 34,
+        "visible_metrics": {
+          "views": 91200,
+          "likes": 455,
+          "comments": 11,
+          "shares": 33,
+          "saves": 109
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-p-0068/oAAE6dADIFSGACJA3nqaReQAHEIpfBUDQoA7Qn~tplv-tiktokx-dmt-logom:tos-useast2a-v-0068/o0toZhHEAXRQAQKIeCFnAADDQUJAABg7fAdENq.image?dr=10393&x-expires=1789639200&x-signature=WPY0%2FrxZwQmmIurFXyYUtNzbDA0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    },
+    {
+      "id": "TT15",
+      "product_group": "Другие пледы",
+      "account": "lander_71sqm",
+      "format_from_sheet": "Короткое видео · 34 секунды",
+      "first_frame_from_sheet": "Основатель говорит о проекте, над которым работал почти год",
+      "url": "https://www.tiktok.com/@lander_71sqm/video/7423713121409240328",
+      "slug": "lander_71sqm",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@lander_71sqm/video/7423713121409240328",
+        "video_id": "7423713121409240328",
+        "author": "lander_71sqm",
+        "description": "Let me share a bit about a project I’ve been working on for almost a year, and now it’s finally live! 🎉 As a product designer and art lover, I wanted to create something not only beautiful but also long-lasting and high-quality. I’m thrilled to say that the first drop of blankets reached its goal 100%! 🙌 Each blanket is made from 100% virgin wool using a jacquard knit, which means 40% less pilling compared to standard wool blankets. Plus, they get softer over time! ✨ We have fewer than 140 pieces left in each of the two designs, so make sure to grab yours before they’re gone! And the best part? They’re only 119€ with free shipping across Europe—an amazing deal for the quality, especially compared to mass-market options at similar prices😉 🔗71sqm.shop  . . . . . . #DesignWithPurpose #CozyLiving #WoolBlanket #71sqm #InteriorInspo #HomeDecor #SustainableDesign #LimitedEdition #EuropeanDesign #HomeStyling #blueblanket #hmdecor #hmhome #arketblanket #greenblanket #designblanket #estoniandesign",
+        "created_at": "2024-10-09T09:58:29.000Z",
+        "duration_seconds": 34,
+        "visible_metrics": {
+          "views": 24300,
+          "likes": 194,
+          "comments": 6,
+          "shares": 23,
+          "saves": 83
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/o8fnAgRAEWDBfGQELUFPCEA8BAAXIgC4lAAcXA~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=iIWjgtivHjJysvs0vKPonw0uP94%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      },
+      "capture": {
+        "ok": true,
+        "title": "",
+        "final_url": "https://www.tiktok.com/player/v1/7423713121409240328?autoplay=0&loop=0&music_info=1&description=1&rel=0&native_context_menu=0",
+        "source_detail_url": "https://www.tiktok.com/@lander_71sqm/video/7423713121409240328",
+        "dismissed": [
+          "optional cookies declined by exact label"
+        ],
+        "has_visible_metric_text": true,
+        "login_prompt_remaining": false,
+        "screenshot_path": "/Users/evgeniyloshak/Documents/ECOM/research_assets/reference_screenshots/social_priority/TT15_lander_71sqm_official_embed.png",
+        "screenshot_basis": "official TikTok public player for the same video id; no social interaction or media download"
+      }
+    },
+    {
+      "id": "TT16",
+      "product_group": "Другие пледы",
+      "account": "Art by AnnMarie",
+      "format_from_sheet": "Видео-разбор · 133 секунды",
+      "first_frame_from_sheet": "Крупный текст «WOOL haul»; затем названия LOPI и Arturus",
+      "url": "https://www.tiktok.com/@annmarie.artworks/video/7674782947047771406",
+      "slug": "art_by_annmarie",
+      "metadata": {
+        "ok": true,
+        "http_status": 200,
+        "final_url": "https://www.tiktok.com/@annmarie.artworks/video/7674782947047771406",
+        "video_id": "7674782947047771406",
+        "author": "annmarie.artworks",
+        "description": "🐑 🐑 my expensive wool haul month #wool #sheepskin #fiberart ",
+        "created_at": "2026-08-16T23:58:04.000Z",
+        "duration_seconds": 133,
+        "visible_metrics": {
+          "views": 7307,
+          "likes": 315,
+          "comments": 21,
+          "shares": 3,
+          "saves": 31
+        },
+        "is_ad": false,
+        "official_cover_url_seen": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o4EAKI442BBNJM1U3MCyBEaXTTCxMgviobioP~tplv-tiktokx-origin.image?dr=10395&x-expires=1789639200&x-signature=78dfFDwap%2F7mfyGcHNeV9U%2Fk%2FdU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=no1a"
+      }
+    }
+  ]
+}

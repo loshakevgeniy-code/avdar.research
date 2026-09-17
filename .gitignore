@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+presentation/steppe_modernism/node_modules
+
+# Temporary document previews and connector exports
+.codex/
+.avdar_*/
+.framework_review_render.*/
+
+# Rebuildable slide renders and visual QA files
+presentation/steppe_modernism/tmp/
+presentation/steppe_modernism/qa/
+presentation/steppe_modernism/slides/
+presentation/steppe_modernism/output/*
+!presentation/steppe_modernism/output/pdf/
+presentation/steppe_modernism/output/pdf/*
+!presentation/steppe_modernism/output/pdf/Market_Launch_Research_v16_2026-09-17.pdf

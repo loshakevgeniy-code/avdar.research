@@ -1,0 +1,107 @@
+// Публичные витрины подтверждают наличие категории и доступный путь покупки,
+// но не продажи, долю канала или возможность размещения нового бренда.
+(function () {
+  const shots = '../../../research_assets/reference_screenshots/channels_v16/';
+  window.CHANNEL_DATA_V16 = {
+    DE: {
+      image: shots + 'DE_breuninger_cashmere.png',
+      imageUrl: 'https://www.breuninger.com/de/damen/accessoires/schals-tuecher-schals/?material=kaschmir',
+      imageCaption: 'Breuninger · подборка кашемировых шарфов',
+      rows: [
+        { category: 'Шарф', seller: 'Breuninger', type: 'премиальный мультибренд', detail: 'Несколько марок на одной полке; фильтр по кашемиру.', url: 'https://www.breuninger.com/de/damen/accessoires/schals-tuecher-schals/?material=kaschmir' },
+        { category: 'Носки', seller: 'GALERIA', type: 'универмаг', detail: 'Шерстяные модели FALKE рядом с базовыми аксессуарами.', url: 'https://www.galeria.de/produkt/falke-cosy-wool-boot-socken-wollanteil-fuer-damen-4067112395925' },
+        { category: 'Перчатки', seller: 'Breuninger', type: 'модный мультибренд', detail: 'Перчатки с кашемиром среди аксессуаров разных марок.', url: 'https://www.breuninger.com/de/damen/accessoires/handschuhe/' },
+        { category: 'Плед', seller: 'Breuninger Home', type: 'товары для дома', detail: 'Пледы в интерьерной категории; шерсть доступна среди материалов.', url: 'https://www.breuninger.com/de/home-living/wohntextilien/plaids-decken/' },
+      ],
+      purchase: 'GALERIA: онлайн-заказ, получение и возврат в магазине.',
+      purchaseUrl: 'https://www.galeria.de/service/services-at-ort/click-collect',
+      conclusion: 'Шарф попадает в модный мультибренд; плед — в отдел для дома. Для этих каналов нужны отдельные условия поставки и маржа.',
+    },
+    NL: {
+      image: shots + 'NL_hema_wool_socks.png',
+      imageUrl: 'https://www.hema.nl/dames/beenmode/sokken/wol',
+      imageCaption: 'HEMA · шерстяные носки как базовый товар',
+      rows: [
+        { category: 'Шарф', seller: 'de Bijenkorf', type: 'универмаг', detail: 'Подборка кашемировых шарфов с фильтрами по бренду.', url: 'https://www.debijenkorf.nl/l/sjaals-hoeden/sjaals/kasjmier' },
+        { category: 'Носки', seller: 'HEMA', type: 'повседневная сеть', detail: 'Отдельная полка шерстяных носков; заметная ценовая альтернатива.', url: 'https://www.hema.nl/dames/beenmode/sokken/wol' },
+        { category: 'Перчатки', seller: 'de Bijenkorf', type: 'универмаг', detail: 'Шерстяные и кашемировые модели в отделе аксессуаров.', url: 'https://www.debijenkorf.nl/l/damesmode/dames-maat-m/accessoires/handschoenen' },
+        { category: 'Плед', seller: 'de Bijenkorf Home', type: 'интерьерный отдел', detail: 'Шерстяные пледы в категории домашнего текстиля.', url: 'https://www.debijenkorf.nl/l/selectie-warm-en-knus-binnen/woonaccessoires/plaids/materiaal-wol' },
+      ],
+      purchase: 'de Bijenkorf: заказ онлайн с доставкой или получением в универмаге.',
+      purchaseUrl: 'https://www.debijenkorf.nl/services/online-bestelservice-winkel',
+      conclusion: 'Шарф, носки и плед стоят в разных отделах. Одна общая витрина не заменит разную подачу товаров.',
+    },
+    PL: {
+      image: shots + 'PL_modivo_cashmere.png',
+      imageUrl: 'https://modivo.pl/c/kaszmirowy-szalik',
+      imageCaption: 'MODIVO · кашемировые шарфы разных марок',
+      rows: [
+        { category: 'Шарф', seller: 'MODIVO', type: 'модный мультибренд', detail: 'Выбор по марке, цене и материалу в общей категории шарфов.', url: 'https://modivo.pl/c/kaszmirowy-szalik' },
+        { category: 'Носки', seller: 'Decathlon', type: 'спортивный магазин', detail: 'Мериносовые носки представлены как функциональный товар.', url: 'https://www.decathlon.pl/sporty/turystyka-trekking/skarpety-merino' },
+        { category: 'Перчатки', seller: 'MODIVO', type: 'модный мультибренд', detail: 'Шерстяные перчатки Polo Ralph Lauren в общей витрине.', url: 'https://modivo.pl/p/polo-ralph-lauren-rekawiczki-455981440005-granatowy-3616853463205' },
+        { category: 'Плед', seller: 'home&you', type: 'дом и подарок', detail: 'Мериносовый плед с подарочной упаковкой.', url: 'https://home-you.com/pl/p/koc-z-welny-merino-terra' },
+      ],
+      purchase: 'home&you: товары сети можно заказать онлайн и забрать или зарезервировать в магазине; для сторонних продавцов правило иное.',
+      purchaseUrl: 'https://home-you.com/pl/faq',
+      conclusion: 'При выборе канала для шарфа нужно сравнить конечную цену с мультибрендом. Плед может быть отдельным подарочным предложением.',
+    },
+    DK: {
+      image: shots + 'DK_illum_cashmere.png',
+      imageUrl: 'https://shop.illum.dk/products/cashmerebyillum_scarf',
+      imageCaption: 'ILLUM · кашемировый шарф, 850 DKK ≈ €114',
+      rows: [
+        { category: 'Шарф', seller: 'ILLUM', type: 'универмаг', detail: 'Собственная кашемировая линия в модном отделе.', url: 'https://shop.illum.dk/products/cashmerebyillum_scarf' },
+        { category: 'Носки', seller: 'Spejder Sport', type: 'магазин для активного отдыха', detail: 'Мериносовые носки с проверкой наличия в магазинах.', url: 'https://www.spejdersport.dk/asivik-liner-sok-merinould-505510-1002' },
+        { category: 'Перчатки', seller: 'Zalando', type: 'модная платформа', detail: 'Шерстяные перчатки Polo Ralph Lauren с местной доставкой.', url: 'https://www.zalando.dk/polo-ralph-lauren-unisex-handsker-hunter-navy-po254a001-k11.html' },
+        { category: 'Плед', seller: 'Salling', type: 'товары для дома', detail: 'Шерстяные пледы на интерьерной полке.', url: 'https://salling.dk/bolig/stue/plaider/c-940/' },
+      ],
+      purchase: 'Spejder Sport: онлайн-заказ и получение в магазине.',
+      purchaseUrl: 'https://www.spejdersport.dk/asivik-liner-sok-merinould-505510-1002',
+      conclusion: 'Универмаг, магазин для активного отдыха и интерьерный ритейл решают разные задачи. Для каждого товара нужен свой канал и подача.',
+    },
+    BE: {
+      image: shots + 'BE_juttu_wool_scarf.png',
+      imageUrl: 'https://www.juttu.be/nl/p/selected-sjaal-tope-wool-A12JCA0031.html',
+      imageCaption: 'Juttu · шерстяной шарф с проверкой наличия в магазине',
+      rows: [
+        { category: 'Шарф', seller: 'Juttu', type: 'магазин одежды и товаров для дома', detail: 'Товар онлайн и проверка наличия в магазине.', url: 'https://www.juttu.be/nl/p/selected-sjaal-tope-wool-A12JCA0031.html' },
+        { category: 'Носки', seller: 'Decathlon', type: 'магазин для активного отдыха', detail: 'Мериносовые носки как функциональная покупка.', url: 'https://www.decathlon.be/fr/p/chaussettes-de-randonnee-mi-hautes-en-laine-merinos-2-paires-sh900-noir/336930/c1c93m8665137' },
+        { category: 'Перчатки', seller: 'INNO', type: 'универмаг', detail: 'Кашемировые перчатки в локальной онлайн-витрине.', url: 'https://www.inno.be/fr/gants-4-fils---100-cachemire-uni-4/6572a5ac-16e6-43fd-8ecf-ea9c4d61a675.html' },
+        { category: 'Плед', seller: 'IKEA', type: 'дом и интерьер', detail: 'Отдельная фильтрация пледов из шерсти.', url: 'https://www.ikea.com/be/fr/cat/couvertures-plaids-20528/f/couvertures-en-laine-f-materials--48361/' },
+      ],
+      purchase: 'Juttu: онлайн-заказ и бесплатное получение в магазине; страницы доступны на нидерландском и французском.',
+      purchaseUrl: 'https://www.juttu.be/fr/questions-frequentes/click-collect.html',
+      conclusion: 'Канал для Бельгии требует двух языков. Нидерландской витрины недостаточно для всей страны.',
+    },
+    SE: {
+      image: shots + 'SE_ahlens_cashmere.png',
+      imageUrl: 'https://www.ahlens.se/produkter/herr/halsduk-i-kashmir-hilmer-f5df5a39-4140-45c8-8403-b126cd752d56',
+      imageCaption: 'Åhléns · кашемировый шарф, 999 SEK ≈ €89',
+      rows: [
+        { category: 'Шарф', seller: 'Åhléns', type: 'универмаг', detail: 'Кашемировый товар с онлайн-корзиной и наличием по магазинам.', url: 'https://www.ahlens.se/produkter/herr/halsduk-i-kashmir-hilmer-f5df5a39-4140-45c8-8403-b126cd752d56' },
+        { category: 'Носки', seller: 'Naturkompaniet', type: 'магазин для активного отдыха', detail: 'Шерстяные носки в функциональном ассортименте.', url: 'https://www.naturkompaniet.se/herr/klader/strumpor/ullstrumpor/' },
+        { category: 'Перчатки', seller: 'Åhléns', type: 'универмаг', detail: 'Пятипалые перчатки с шерстью на местной витрине.', url: 'https://www.ahlens.se/produkter/herr/fingervantar-i-ullmix-herman-5bf494d9-1c1f-4822-9347-fac3129be7de' },
+        { category: 'Плед', seller: 'Nordic Nest', type: 'интерьерный магазин', detail: 'Подборка пледов Klippan в разделе интерьера.', url: 'https://www.nordicnest.se/varumarken/klippan-yllefabrik/klippan-pladar/' },
+      ],
+      purchase: 'Åhléns: онлайн-заказ и проверка наличия в универмаге.',
+      purchaseUrl: 'https://www.ahlens.se/produkter/herr/halsduk-i-kashmir-hilmer-f5df5a39-4140-45c8-8403-b126cd752d56',
+      conclusion: 'Для пледа есть и интерьерный, и корпоративный подарочный путь у Klippan. Возможность поставки новой марки нужно проверять отдельно.',
+      conclusionUrl: 'https://klippanyllefabrik.se/pages/foretagsgavor',
+    },
+    FI: {
+      image: shots + 'FI_stockmann_cashmere.png',
+      imageUrl: 'https://www.stockmann.com/balmuir-helsinki-kashmirhuivi/15650379039.html',
+      imageCaption: 'Stockmann · кашемировый шарф Balmuir',
+      rows: [
+        { category: 'Шарф', seller: 'Stockmann', type: 'универмаг', detail: 'Balmuir в корзине и резервирование в универмаге.', url: 'https://www.stockmann.com/balmuir-helsinki-kashmirhuivi/15650379039.html' },
+        { category: 'Носки', seller: 'Partioaitta', type: 'магазин для активного отдыха', detail: 'Мериносовые модели и проверка наличия по магазинам.', url: 'https://www.partioaitta.fi/vaatteet/sukat/' },
+        { category: 'Перчатки', seller: 'Stockmann', type: 'универмаг', detail: 'Шерстяные пятипалые перчатки с резервом в магазине.', url: 'https://www.stockmann.com/a-more-sable-villasormikkaat/16996698664-1.html' },
+        { category: 'Плед', seller: 'Finnish Design Shop', type: 'магазин предметов дизайна', detail: 'Шерстяные пледы Lapuan Kankurit как предмет интерьера.', url: 'https://www.finnishdesignshop.fi/fi-fi/tuote/rauha-huopa-130-x-180-cm-valkoinen-beige' },
+      ],
+      purchase: 'Stockmann: доставка или резерв в универмаге; в Финляндии распространён вариант выдачи через постаматы.',
+      purchaseUrl: 'https://www.stockmann.com/balmuir-helsinki-kashmirhuivi/15650379039.html',
+      purchaseExtraUrl: 'https://www.postnord.com/insights/finland/finland-spring-2026/e-commerce-delivery-trends-in-finland-spring-2026/',
+      conclusion: 'Для собственного сайта важно заранее проверить локальную оплату, пункты выдачи и полную цену доставки.',
+    },
+  };
+})();

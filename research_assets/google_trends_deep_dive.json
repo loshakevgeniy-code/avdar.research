@@ -1,0 +1,814 @@
+{
+  "schema_version": "1.0",
+  "title": "Avdar Market — Google Trends deep dive",
+  "status": "decision-grade directional read-only slice",
+  "generated_at": "2026-09-15T12:20:00+03:00",
+  "timezone": "Europe/Moscow",
+  "data_access": {
+    "full_matrix_collected": "2026-09-14",
+    "ui_refresh_checked": "2026-09-15",
+    "ui_refresh_result": "Official Google Trends Explore loaded and exposed its accessible time-series table. A DE five-year Search term control panel for Kaschmirschal vs Wollschal was read successfully; an auxiliary DE Topic panel recognized wool blanket (/g/11bc62qjgl) and Yak-blankets (/g/11kr8j_1fz).",
+    "programmatic_endpoint": "The unofficial/internal Explore endpoint returned HTTP 429 outside the browser session. Repeated automated UI panels also began timing out, so no timeout was classified as a true zero.",
+    "collection_route": "Official Google Trends Explore in Chrome/CUA; accessible chart tables and related-query panels. No third-party Trends provider.",
+    "master_sheet_changes": "none"
+  },
+  "scope": {
+    "source_assortment": {
+      "url": "https://docs.google.com/spreadsheets/d/1YmtIAePP6YoGmcc-30R37Vyej0Wt9YTMzaDNA_7Nm0Q/edit",
+      "sheet": "01 Product Master",
+      "read_only": true
+    },
+    "markets": ["DE", "NL", "BE", "DK", "SE", "PL", "FI"],
+    "search_type": "Web Search",
+    "category": "All categories",
+    "periods": ["today 5-y", "today 12-m"],
+    "families": [
+      "cashmere_scarf",
+      "wool_scarf",
+      "wool_merino_socks",
+      "yak_blanket",
+      "other_blankets",
+      "shawls",
+      "gloves"
+    ],
+    "family_mapping_notes": {
+      "wool_merino_socks": "Wool socks are the inventory/search anchor; merino wording is a language and demand-discovery variant, not a claim that every Avdar sock is merino.",
+      "other_blankets": "Sheep-wool blanket/throw is the acquisition anchor. Cashmere blanket is preserved as a sparse premium subseries.",
+      "shawls": "Wool shawl is the main search proxy. Camel-wool shawl exact terms were also checked and were below resolution across the target markets.",
+      "yak_blanket": "Yak blanket is retained as a separate premium/material family even though the exact Search term series is generally below Trends resolution."
+    }
+  },
+  "methodology": {
+    "query_unit": "Search-distinct family/material pair; color SKUs were not multiplied.",
+    "query_mode": "Literal local Search terms were used for the decision matrix. A plus sign inside one comparison item means OR between close language/word-order variants; commas separate comparison items.",
+    "topic_policy": "Use a Topic only when Google exposes a clean category Topic whose scope matches the product family. Do not substitute a generic or product-specific Topic for a material-product query.",
+    "time_granularity": {
+      "five_year": "weekly",
+      "twelve_month": "weekly"
+    },
+    "diagnostic_metric": "Share of complete weekly observations with index greater than zero. This is an analyst-derived recurrence diagnostic, not an official Google metric and not search volume.",
+    "seasonality_read": "The five-year panel establishes recurrence and repeated peak timing. The twelve-month panel checks whether the current cycle still follows the historical shape. A separately normalized 12-month index is not treated as growth versus the five-year index.",
+    "partial_period_policy": "The current incomplete week is not used as a standalone signal.",
+    "tier_legend": {
+      "H": "Recurring/high-resolution series, generally at least 50% of weekly points non-zero or a continuous strong 12-month series.",
+      "M": "20–49% of weekly points non-zero.",
+      "L": "2–19% of weekly points non-zero.",
+      "0": "Below 2%, isolated noise, or below the resolution of the selected panel. This does not prove zero demand."
+    },
+    "confidence_legend": {
+      "high": "Stable time series and/or the same conclusion repeats across five-year and twelve-month panels.",
+      "medium": "Directional signal is usable but wording, sparse sampling, or panel instability limits precision.",
+      "low": "Mostly zeros/isolated spikes, bilingual aggregation, or a dynamic panel did not render consistently."
+    }
+  },
+  "topic_vs_search_term": {
+    "decision": "The market matrix uses Search terms, not Topics.",
+    "reason": "Cashmere scarf, wool scarf, merino socks and wool gloves do not have consistently clean generic material-product Topics. Autocomplete frequently returns branded/product-specific entities. Generic Glove and Shawl Topics are too broad for material-specific acquisition sizing.",
+    "official_autocomplete_checks": [
+      {
+        "concept": "cashmere scarf",
+        "result": "No clean generic category Topic; suggestions were named products such as Nordstrom/Everlane/Fendi scarves.",
+        "matrix_mode": "Search term"
+      },
+      {
+        "concept": "wool scarf",
+        "result": "No clean generic category Topic; suggestions were branded products.",
+        "matrix_mode": "Search term"
+      },
+      {
+        "concept": "wool socks",
+        "topic": {
+          "mid": "/g/11ftbkspgj",
+          "title": "Women's Wool Socks",
+          "type": "Topic"
+        },
+        "scope_issue": "Gender-limited and therefore not equivalent to the full Avdar socks family.",
+        "matrix_mode": "Search term"
+      },
+      {
+        "concept": "wool blanket",
+        "topic": {
+          "mid": "/g/11bc62qjgl",
+          "title": "wool blanket",
+          "type": "Topic"
+        },
+        "use": "Auxiliary multilingual sensitivity check only; local Search terms remain the acquisition-language source of truth."
+      },
+      {
+        "concept": "yak blanket",
+        "topic": {
+          "mid": "/g/11kr8j_1fz",
+          "title": "Yak-blankets",
+          "type": "Topic"
+        },
+        "use": "Auxiliary sensitivity check. In the DE five-year Topic comparison the UI showed average index 0 for Yak-blankets and no related-query block, consistent with the sparse local-term result."
+      },
+      {
+        "concept": "wool shawl",
+        "topic": {
+          "mid": "/g/11j2wkfzjz",
+          "title": "Wool Shawl",
+          "type": "Topic"
+        },
+        "scope_issue": "Duplicate/ambiguous Shawl entities exist, so local Search terms are more interpretable for market copy.",
+        "matrix_mode": "Search term"
+      },
+      {
+        "concept": "gloves",
+        "topic": {
+          "mid": "/m/0174n1",
+          "title": "Glove",
+          "type": "Garment"
+        },
+        "scope_issue": "Includes all materials and use cases, not wool gloves.",
+        "matrix_mode": "Search term"
+      }
+    ],
+    "de_topic_control_url": "https://trends.google.com/trends/explore?hl=en&date=today%205-y&geo=DE&q=%2Fg%2F11bc62qjgl,%2Fg%2F11kr8j_1fz"
+  },
+  "directional_matrix": {
+    "cell_format": "five_year_tier / twelve_month_tier",
+    "families": {
+      "cashmere_scarf": {"DE": "M/M", "NL": "L/L", "BE": "0/L", "DK": "M/M", "SE": "L/L", "PL": "M/M", "FI": "0/0"},
+      "wool_scarf": {"DE": "H/H", "NL": "M/M", "BE": "L/L", "DK": "L/L", "SE": "L/L", "PL": "M/M", "FI": "L/L"},
+      "wool_merino_socks": {"DE": "H/H", "NL": "H/H", "BE": "M/M", "DK": "M/H", "SE": "H/H", "PL": "M/M", "FI": "H/H"},
+      "yak_blanket": {"DE": "0/0", "NL": "0/0", "BE": "0/0", "DK": "0/0", "SE": "0/0", "PL": "0/0", "FI": "0/0"},
+      "other_blankets": {"DE": "H/H", "NL": "H/H", "BE": "L/L", "DK": "H/H", "SE": "H/H", "PL": "H/H", "FI": "L/L"},
+      "shawls": {"DE": "L/M", "NL": "0/L", "BE": "0/0", "DK": "0/0", "SE": "0/0", "PL": "L/M", "FI": "0/0"},
+      "gloves": {"DE": "M/M", "NL": "L/L", "BE": "0/0", "DK": "0/0", "SE": "0/0", "PL": "M/M", "FI": "0/0"}
+    },
+    "interpretation": "Wool/merino socks and sheep-wool blankets are the only broadly recurring acquisition families. Cashmere scarves are strongest in DE and PL, testable in DK, and much less resolved elsewhere. Yak blanket, shawl and glove demand should not be sized from Trends alone."
+  },
+  "market_results": {
+    "DE": {
+      "languages": ["de"],
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "Kaschmirschal", "type": "Search term", "alternatives": ["Kaschmir Schal", "cashmere Schal", "Kaschmirschal Damen"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 37.8},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 47.2},
+          "seasonality": "Repeated Q4 ramp; useful from September, strongest in November–December, then declines after the winter/gift peak.",
+          "confidence": "high",
+          "decision": "Primary premium-scarf test market."
+        },
+        "wool_scarf": {
+          "query": {"expression": "Wollschal", "type": "Search term", "alternatives": ["Wollschal Damen", "Wollschal Herren", "Wolltuch"]},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 56.9},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 56.6},
+          "seasonality": "Strong Q4; the five-year control reached 100 in the week of 2022-12-04.",
+          "confidence": "high",
+          "decision": "SEO/paid-search core beside socks and blankets."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "Wollsocken", "type": "Search term", "merino_variants": ["Merino Socken", "Merinosocken", "merino socken damen"]},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 92.4},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 96.2},
+          "seasonality": "Broad recurring winter demand, accelerating from September/October and peaking November–December; longer tail into January than scarves.",
+          "confidence": "high",
+          "decision": "Top acquisition family. Use merino wording only on products whose fibre claim supports it."
+        },
+        "yak_blanket": {
+          "query": {"expression": "Yakdecke + Yakhaardecke", "type": "Search term", "topic_sensitivity": "/g/11kr8j_1fz"},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series; isolated values cannot establish a peak.",
+          "confidence": "high for below-resolution conclusion; low for market sizing",
+          "decision": "Halo/PDP/remarketing product, not standalone search acquisition."
+        },
+        "other_blankets": {
+          "query": {"expression": "Wolldecke + Wollplaid", "type": "Search term", "secondary": "Kaschmirdecke", "topic_sensitivity": "/g/11bc62qjgl"},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": null, "cashmere_subseries_tier": "0"},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 100.0, "cashmere_subseries_nonzero_weeks_pct": 5.7},
+          "seasonality": "Persistent wool-blanket base with clear Q4 lift; cashmere blanket remains sparse even in season.",
+          "confidence": "high for wool; medium for five-year exact percentage",
+          "decision": "Top acquisition family; treat cashmere as a premium subcategory, not a volume keyword."
+        },
+        "shawls": {
+          "query": {"expression": "Wolltuch + Wollstola", "type": "Search term", "alternatives": ["Schultertuch Wolle", "Wollschal"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": null},
+          "seasonality": "Winter-biased but sparse and sensitive to whether consumers say Schal, Tuch or Stola.",
+          "confidence": "medium",
+          "decision": "Cross-sell/editorial; test wording before budget."
+        },
+        "gloves": {
+          "query": {"expression": "Wollhandschuhe", "type": "Search term", "alternatives": ["Handschuhe Wolle", "Merino Handschuhe"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 22.5},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 26.4},
+          "seasonality": "Shorter Q4/winter window than socks; off-season often below resolution.",
+          "confidence": "high",
+          "decision": "Attach/cross-sell family with limited standalone test."
+        }
+      }
+    },
+    "NL": {
+      "languages": ["nl"],
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "kasjmier sjaal", "type": "Search term", "alternatives": ["cashmere sjaal", "sjaal kasjmier"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": 8.8},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 17.0},
+          "seasonality": "Winter-biased but too sparse to infer scale; separate normalization prevents calling the higher 12-month coverage growth.",
+          "confidence": "medium",
+          "decision": "Localized small test only."
+        },
+        "wool_scarf": {
+          "query": {"expression": "wollen sjaal", "type": "Search term", "alternatives": ["wollen sjaal dames", "wollen sjaal heren"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 38.5},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 45.3},
+          "seasonality": "Autumn/winter peak with a much weaker spring/summer base.",
+          "confidence": "high",
+          "decision": "Tier-2 acquisition family."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "wollen sokken", "type": "Search term", "merino_variants": ["merino sokken", "merino wollen sokken dames"]},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 75.5},
+          "seasonality": "Recurring, with clear September/October activation and Q4 peak; merino/alpaca comparison language appears in related demand.",
+          "confidence": "high",
+          "decision": "Top acquisition family."
+        },
+        "yak_blanket": {
+          "query": {"expression": "jakwollen deken + jakwollen plaid", "type": "Search term", "alternatives": ["yak wollen deken", "yak plaid"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series.",
+          "confidence": "high for below-resolution conclusion; low for sizing",
+          "decision": "Halo product only."
+        },
+        "other_blankets": {
+          "query": {"expression": "wollen deken + wollen plaid", "type": "Search term", "secondary": "kasjmier deken + kasjmier plaid"},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 97.7, "cashmere_subseries_nonzero_weeks_pct": 1.5},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 100.0, "cashmere_subseries_tier": "L"},
+          "seasonality": "Very persistent wool demand with a strong Q4 maximum; cashmere remains a sparse modifier.",
+          "confidence": "high",
+          "decision": "Top acquisition family; preserve both deken and plaid wording."
+        },
+        "shawls": {
+          "query": {"expression": "wollen omslagdoek", "type": "Search term", "alternatives": ["wollen stola", "wollen sjaal"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": null},
+          "seasonality": "Sparse winter-only signal and heavy overlap with sjaal vocabulary.",
+          "confidence": "low",
+          "decision": "Cross-sell/editorial, not a forecastable keyword family."
+        },
+        "gloves": {
+          "query": {"expression": "wollen handschoenen", "type": "Search term", "alternatives": ["schapenwollen handschoenen dames"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 13.2},
+          "seasonality": "Short winter peak with sparse observations.",
+          "confidence": "medium",
+          "decision": "Attach family; use the observed schapenwollen modifier only when composition is accurate."
+        }
+      }
+    },
+    "BE": {
+      "languages": ["nl", "fr"],
+      "family_panel_rule": "The matrix combines NL and FR variants with OR to avoid false zeros, but campaign and landing-page decisions must be split by language.",
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "kasjmier sjaal + écharpe cachemire", "type": "Search term", "alternatives": ["écharpe en cachemire", "écharpe 100 cachemire", "écharpe cachemire femme"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": 1.9},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 3.8},
+          "seasonality": "Winter-biased but phrase/language fragmentation makes the panel sparse.",
+          "confidence": "low",
+          "decision": "Separate FR and NL micro-tests; do not sum them into a single absolute forecast."
+        },
+        "wool_scarf": {
+          "query": {"expression": "wollen sjaal + écharpe en laine", "type": "Search term", "alternatives": ["écharpe laine", "wollen sjaal dames", "écharpe en laine femme"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": 5.0},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 7.5},
+          "seasonality": "Sparse Q4 signal; language split matters more than small index changes.",
+          "confidence": "low",
+          "decision": "Test only after separate NL/FR keyword validation."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "wollen sokken + chaussettes en laine", "type": "Search term", "merino_variants": ["merino sokken", "chaussettes mérinos"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 20.2},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 24.5},
+          "seasonality": "Recurring but less resolved than neighbouring markets; Q4/winter strongest.",
+          "confidence": "medium",
+          "decision": "Best BE acquisition family, but launch as separate NL and FR tests."
+        },
+        "yak_blanket": {
+          "query": {"expression": "jakwollen deken + plaid en laine de yak", "type": "Search term", "alternatives": ["couverture en laine de yak", "yak plaid"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series.",
+          "confidence": "low",
+          "decision": "Halo/PDP only."
+        },
+        "other_blankets": {
+          "query": {"expression": "wollen deken + wollen plaid + couverture en laine + plaid en laine", "type": "Search term", "secondary": "kasjmier deken + plaid cachemire"},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": 2.7},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 3.8},
+          "seasonality": "The selected combined phrase is sparse; related queries show that couverture laine, couverture en laine and plaid wol are more natural forms.",
+          "confidence": "low",
+          "decision": "Do not interpret the low panel as weak category demand until wording is split and retested."
+        },
+        "shawls": {
+          "query": {"expression": "wollen omslagdoek + châle en laine", "type": "Search term", "alternatives": ["étole en laine", "wollen stola"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below resolution; no defensible peak estimate.",
+          "confidence": "low",
+          "decision": "Merchandising/cross-sell only."
+        },
+        "gloves": {
+          "query": {"expression": "wollen handschoenen + gants en laine", "type": "Search term", "alternatives": ["gants laine", "wollen handschoenen dames"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below panel resolution despite a plausible winter category pattern.",
+          "confidence": "low",
+          "decision": "Attach family; validate via Ads impressions rather than Trends."
+        }
+      }
+    },
+    "DK": {
+      "languages": ["da"],
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "cashmere tørklæde + cashmere halstørklæde", "type": "Search term", "alternatives": ["kashmir tørklæde", "kashmir halstørklæde"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 21.0},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 30.2},
+          "seasonality": "Clear autumn/winter concentration; sparse outside the season.",
+          "confidence": "medium",
+          "decision": "Bounded premium test, below DE/PL priority."
+        },
+        "wool_scarf": {
+          "query": {"expression": "uldtørklæde + uld halstørklæde", "type": "Search term", "alternatives": ["uld tørklæde", "uldtørklæde dame"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": 7.6},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 11.3},
+          "seasonality": "Winter-only and wording-sensitive.",
+          "confidence": "medium",
+          "decision": "Attach/SEO family."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "uldsokker", "type": "Search term", "merino_variants": ["merino sokker", "merinould sokker"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 42.0},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 56.6},
+          "seasonality": "Autumn activation and strong Q4/winter demand; current-year recurrence remains intact.",
+          "confidence": "high",
+          "decision": "Top acquisition family."
+        },
+        "yak_blanket": {
+          "query": {"expression": "yakuld plaid + yakuld tæppe", "type": "Search term", "alternatives": ["yak plaid", "yak tæppe"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series.",
+          "confidence": "high for below-resolution conclusion; low for sizing",
+          "decision": "Halo/PDP product."
+        },
+        "other_blankets": {
+          "query": {"expression": "uldplaid + uldtæppe", "type": "Search term", "secondary": "cashmere plaid + kashmir plaid"},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 77.1},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 88.7, "cashmere_subseries_nonzero_weeks_pct": 5.7},
+          "seasonality": "Strong recurring base with Q4 peak; uldplaid and uldtæppe should both be covered.",
+          "confidence": "high",
+          "decision": "Top acquisition family; cashmere is a premium modifier only."
+        },
+        "shawls": {
+          "query": {"expression": "uldsjal", "type": "Search term", "alternatives": ["uld sjal", "uldstola"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below resolution.",
+          "confidence": "low",
+          "decision": "Cross-sell/editorial."
+        },
+        "gloves": {
+          "query": {"expression": "uldhandsker", "type": "Search term", "alternatives": ["uld handsker", "merino handsker"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below resolution; plausible winter timing cannot be quantified.",
+          "confidence": "low",
+          "decision": "Attach family."
+        }
+      }
+    },
+    "SE": {
+      "languages": ["sv"],
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "kashmirhalsduk + kashmir halsduk + cashmere halsduk", "type": "Search term", "alternatives": ["halsduk kashmir"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": "8–10% for word-order/spacing variants; 0.8% for exact kashmirhalsduk"},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": "1.9% for the exact compound in the measured panel"},
+          "seasonality": "Sparse autumn/winter signal; exact spelling choice dominates the measurement.",
+          "confidence": "low",
+          "decision": "Do not treat a single exact phrase as market size; validate variants in Keyword Planner before spend."
+        },
+        "wool_scarf": {
+          "query": {"expression": "ullhalsduk + ull halsduk + halsduk ull", "type": "Search term", "alternatives": ["halsduk i ull"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": "16–17% for variants; 1.5% for exact ullhalsduk"},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": null},
+          "seasonality": "Winter-biased but very sensitive to compound versus spaced/word-order variants.",
+          "confidence": "medium for wording conclusion; low for scale",
+          "decision": "Use a variant cluster, not one exact compound."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "ullsockor + ullstrumpor", "type": "Search term", "merino_variants": ["merinosockor", "merinoull sockor"]},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 63.7},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 66.0},
+          "seasonality": "Strong recurring cold-season demand with an early-autumn ramp and a Q4 peak.",
+          "confidence": "high",
+          "decision": "Top acquisition family."
+        },
+        "yak_blanket": {
+          "query": {"expression": "jakull pläd + jakull filt", "type": "Search term", "alternatives": ["yak pläd", "yak filt"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series.",
+          "confidence": "high for below-resolution conclusion; low for sizing",
+          "decision": "Halo/PDP product."
+        },
+        "other_blankets": {
+          "query": {"expression": "ullpläd + ullfilt", "type": "Search term", "secondary": "kashmirpläd + kashmir filt"},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 93.5},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": 100.0},
+          "seasonality": "Persistent series with clear Q4 lift; both pläd and filt are necessary formulations.",
+          "confidence": "high",
+          "decision": "Top acquisition family."
+        },
+        "shawls": {
+          "query": {"expression": "ullsjal", "type": "Search term", "alternatives": ["ull sjal", "stola ull"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below resolution.",
+          "confidence": "low",
+          "decision": "Cross-sell/editorial."
+        },
+        "gloves": {
+          "query": {"expression": "ullhandskar", "type": "Search term", "alternatives": ["handskar ull", "merinohandskar"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Sparse winter-only values, insufficient for a stable curve.",
+          "confidence": "low",
+          "decision": "Attach family."
+        }
+      }
+    },
+    "PL": {
+      "languages": ["pl"],
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "szalik kaszmirowy", "type": "Search term", "alternatives": ["kaszmirowy szalik", "szalik z kaszmiru"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 29.8},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 37.7},
+          "seasonality": "Strong recurring Q4 concentration; a five-year peak occurred in the week of 2025-11-23.",
+          "confidence": "high",
+          "decision": "Primary premium-scarf test market with DE."
+        },
+        "wool_scarf": {
+          "query": {"expression": "szalik wełniany", "type": "Search term", "alternatives": ["szalik welniany", "wełniany szalik", "szal wełniany"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 26.7},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 43.4},
+          "seasonality": "Clear autumn ramp and November–December peak.",
+          "confidence": "high",
+          "decision": "Tier-2 acquisition family; retain accented and unaccented forms."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "skarpety wełniane", "type": "Search term", "merino_variants": ["skarpety merino", "skarpetki merino", "skarpety z wełny merino"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 44.7},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 49.1},
+          "seasonality": "Recurring Q4 demand; merino formulations appear among rising related queries.",
+          "confidence": "high",
+          "decision": "Core acquisition family."
+        },
+        "yak_blanket": {
+          "query": {"expression": "koc z wełny jaka + pled z wełny jaka", "type": "Search term", "alternatives": ["koc z jaka", "pled yak"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series.",
+          "confidence": "high for below-resolution conclusion; low for sizing",
+          "decision": "Halo/PDP product."
+        },
+        "other_blankets": {
+          "query": {"expression": "koc wełniany + pled wełniany", "type": "Search term", "secondary": "koc kaszmirowy + pled kaszmirowy"},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 73.7},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": null},
+          "seasonality": "Strong recurring Q4 peak; a five-year maximum occurred in the week of 2025-11-23. Koc is the principal commercial noun; pled is a useful secondary form.",
+          "confidence": "high",
+          "decision": "Top acquisition family; cashmere blanket remains a premium subcategory."
+        },
+        "shawls": {
+          "query": {"expression": "szal wełniany", "type": "Search term", "alternatives": ["wełniany szal", "szal z wełny"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": null},
+          "seasonality": "Winter-biased but materially smaller and less recurrent than szalik terms.",
+          "confidence": "medium",
+          "decision": "Attach/editorial family."
+        },
+        "gloves": {
+          "query": {"expression": "rękawiczki wełniane", "type": "Search term", "alternatives": ["rekawiczki welniane", "rękawiczki merino"]},
+          "five_year": {"tier": "M", "nonzero_weeks_pct": 21.4},
+          "twelve_month": {"tier": "M", "nonzero_weeks_pct": 28.3},
+          "seasonality": "Concentrated in late autumn and winter.",
+          "confidence": "high",
+          "decision": "Attach family with a bounded standalone test."
+        }
+      }
+    },
+    "FI": {
+      "languages": ["fi"],
+      "families": {
+        "cashmere_scarf": {
+          "query": {"expression": "kashmirhuivi + kashmir huivi + cashmere huivi", "type": "Search term", "alternatives": ["kasmirhuivi"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": 0.0, "note": "Exact kashmirhuivi was zero; spacing/English variants were only about 0.4–0.8%."},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": 0.0},
+          "seasonality": "No stable series, so no defensible seasonal curve despite the product's intuitive winter use.",
+          "confidence": "high for below-resolution exact result; low for absolute sizing",
+          "decision": "Do not scale from a claimed absolute-volume estimate without Keyword Planner/impression evidence."
+        },
+        "wool_scarf": {
+          "query": {"expression": "villahuivi", "type": "Search term", "alternatives": ["villa huivi", "huivi villaa"]},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": 6.9},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 7.5},
+          "seasonality": "Sparse winter signal.",
+          "confidence": "medium",
+          "decision": "Attach/SEO, not a core acquisition forecast."
+        },
+        "wool_merino_socks": {
+          "query": {"expression": "villasukat", "type": "Search term", "merino_variants": ["merinosukat", "merinovillasukat"]},
+          "five_year": {"tier": "H", "nonzero_weeks_pct": 100.0},
+          "twelve_month": {"tier": "H", "nonzero_weeks_pct": null},
+          "seasonality": "The most persistent Finnish product series; strong Q4/winter maximum with a broader cold-season shoulder.",
+          "confidence": "high",
+          "decision": "Top acquisition family."
+        },
+        "yak_blanket": {
+          "query": {"expression": "jakkivillahuopa + jakinvillahuopa", "type": "Search term", "alternatives": ["yak huopa", "jakkihuopa"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "No recurring series.",
+          "confidence": "high for below-resolution conclusion; low for sizing",
+          "decision": "Halo/PDP product."
+        },
+        "other_blankets": {
+          "query": {"expression": "villahuopa", "type": "Search term", "secondary": "kashmirhuopa"},
+          "five_year": {"tier": "L", "nonzero_weeks_pct": 12.6},
+          "twelve_month": {"tier": "L", "nonzero_weeks_pct": 17.0},
+          "seasonality": "Q4 lift is visible but the literal term is much less resolved than socks; wording/category breadth may be the cause.",
+          "confidence": "medium",
+          "decision": "Test after exact/broad Keyword Planner QA; do not infer low total blanket demand from this one literal term."
+        },
+        "shawls": {
+          "query": {"expression": "villashaali", "type": "Search term", "alternatives": ["villa shaali", "villastoola"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below resolution.",
+          "confidence": "low",
+          "decision": "Cross-sell/editorial."
+        },
+        "gloves": {
+          "query": {"expression": "villakäsineet", "type": "Search term", "alternatives": ["villa käsineet", "merinovillakäsineet"]},
+          "five_year": {"tier": "0", "nonzero_weeks_pct": null},
+          "twelve_month": {"tier": "0", "nonzero_weeks_pct": null},
+          "seasonality": "Below resolution in the selected comparison panel.",
+          "confidence": "low",
+          "decision": "Attach family; use Ads impressions for validation."
+        }
+      }
+    }
+  },
+  "language_formulation_findings": {
+    "DE": "Closed compounds are the default commercial form: Kaschmirschal, Wollschal, Wollsocken, Wollhandschuhe, Wolldecke. Keep Merinosocken and spaced Merino Socken as variants.",
+    "NL": "Use Dutch kasjmier rather than relying only on English cashmere. For blankets cover both deken and plaid; for socks use wollen sokken with merino sokken as a validated modifier.",
+    "BE": "Do not use one bilingual panel as a campaign structure. Split NL and FR. For FR blankets, couverture en laine / couverture laine are more natural than only plaid laine; for cashmere scarves include écharpe en cachemire and écharpe cachemire.",
+    "DK": "Both tørklæde and halstørklæde matter; both cashmere and kashmir spellings should be validated. For blankets, uldplaid and uldtæppe are complementary forms.",
+    "SE": "Compound/spacing/word-order variants materially change the observed series. Exact kashmirhalsduk and ullhalsduk understate demand relative to kashmir halsduk, cashmere halsduk, ull halsduk and halsduk ull. Use ullsockor + ullstrumpor and ullpläd + ullfilt clusters.",
+    "PL": "Use accented primary forms and retain unaccented variants for discovery. Szalik and szal are different commercial families; koc is the stronger blanket noun, with pled as secondary. Merino wording appears in rising related searches.",
+    "FI": "Compound Finnish forms dominate: villasukat, villahuivi, villahuopa, villakäsineet. Cashmere spelling variants remain below resolution, so wording experiments cannot substitute for impression data."
+  },
+  "seasonality": {
+    "five_year_conclusion": "The repeated structural pattern is cold-season demand. Wool/merino socks and sheep-wool blankets recur in most markets; scarf and glove peaks are narrower; yak blanket and shawl panels are too sparse for stable seasonality.",
+    "twelve_month_conclusion": "The current cycle preserves the category order seen over five years. No rare premium-material term shows a credible structural breakout. A higher 12-month non-zero share is not proof of growth because Google normalizes each period separately.",
+    "typical_activation": "Late August through September for indexation, landing pages and feed QA; paid-search ramp from late September/October.",
+    "typical_peak": "Mid-November through early December, with socks and blankets often retaining a January tail.",
+    "market_nuance": {
+      "DE": "Strongest multi-family search market in the set; scarves, socks and wool blankets all show recurring Q4 signal.",
+      "NL": "Blankets and socks are more dependable than cashmere scarves or gloves.",
+      "BE": "Language fragmentation prevents precise seasonal reading for sparse families.",
+      "DK": "Blankets and socks are reliable; cashmere scarf is a bounded seasonal test.",
+      "SE": "Socks and blankets are reliable; scarf results are highly spelling-sensitive.",
+      "PL": "Cashmere/wool scarves, socks, blankets and gloves all show a usable cold-season pattern.",
+      "FI": "Socks are exceptionally persistent; other literal family terms are much less resolved."
+    },
+    "known_five_year_peak_examples": [
+      {"market": "DE", "family": "wool_scarf", "week": "2022-12-04", "index": 100},
+      {"market": "DE", "family": "wool_merino_socks", "week": "2022-12-11", "index": 100},
+      {"market": "NL", "family": "other_blankets", "week": "2022-12-11", "index": 100},
+      {"market": "FI", "family": "wool_merino_socks", "week": "2021-12-05", "index": 100},
+      {"market": "PL", "family": "cashmere_scarf", "week": "2025-11-23", "index": 100},
+      {"market": "PL", "family": "other_blankets", "week": "2025-11-23", "index": 100}
+    ],
+    "ratio_warning": "Observed Q4/off-season lifts for strong categories are often roughly 3–8x, but extreme ratios for sparse cashmere/yak terms are denominator artefacts and must not be used as forecasts."
+  },
+  "decision_conclusions": [
+    "Tier 1 search families: wool/merino socks and sheep-wool blankets across the target set, with BE requiring separate NL/FR tests.",
+    "Premium scarf priority: DE and PL. DK is a bounded test; NL and BE are conditional localized tests; SE and FI exact series do not support scale assumptions.",
+    "Wool scarf is viable in DE, NL and PL; elsewhere it is primarily SEO/attach inventory.",
+    "Gloves are a standalone test only in DE and PL; elsewhere use cross-sell and winter merchandising.",
+    "Yak blanket and cashmere blanket terms are halo/PDP/remarketing layers, not defensible standalone acquisition families from Trends.",
+    "Shawls are vocabulary-fragmented and sparse; sell through editorial/PDP/cross-sell and validate search wording before spend.",
+    "Do not use a Google Trends index as searches per month or allocate budgets by comparing index 100 across countries."
+  ],
+  "contradictions_and_gaps": [
+    {
+      "issue": "Absolute-volume layers versus normalized Trends",
+      "detail": "Any HYPD/Planner-like monthly volume and Trends answer different questions. Trends cannot mathematically validate absolute volume. Agreement is limited to ranking/seasonality where a recurring series exists."
+    },
+    {
+      "issue": "FI cashmere scarf",
+      "detail": "A previously cited absolute estimate of about 260/month is not corroborated by exact kashmirhuivi: the five-year exact series was zero, and spacing/English variants were only about 0.4–0.8% non-zero."
+    },
+    {
+      "issue": "SE cashmere scarf",
+      "detail": "A previously cited absolute estimate of about 590/month is not corroborated by exact kashmirhalsduk (0.8% of five-year weeks); the best word-order/spacing cluster is still only about 8–10%."
+    },
+    {
+      "issue": "NL cashmere",
+      "detail": "An absolute cashmere estimate around 880/month may include broad/close variants. Exact kasjmier sjaal is only 8.8% non-zero over five years and 17.0% over twelve months. Seasonality agrees; scale is not proven."
+    },
+    {
+      "issue": "BE cashmere",
+      "detail": "NL and FR estimates cannot be mechanically added. A bilingual OR panel remains sparse and hides which language drives the signal."
+    },
+    {
+      "issue": "FI wool blanket",
+      "detail": "A previously cited absolute estimate around 1,000/month is only weakly reflected by literal villahuopa (12.6% non-zero over five years, 17.0% over twelve months). This may be a broad-match or vocabulary issue and needs Planner/Search Ads evidence."
+    },
+    {
+      "issue": "Yak material",
+      "detail": "Exact yak blanket terms and the auxiliary Yak-blankets Topic are below resolution. This is a data gap, not proof that storytelling-led or non-search demand is zero."
+    },
+    {
+      "issue": "Merino",
+      "detail": "Merino variants appear in related/rising queries in DE, NL and PL, but a full stable cross-market merino-only time-series layer was not captured. Do not make a merino fibre claim unless the SKU composition supports it."
+    },
+    {
+      "issue": "UI throttling",
+      "detail": "The official UI was available on 2026-09-15, but repeated automated panels timed out after the browser session became rate-limited. Those timeouts are recorded as missing measurements, never as zeros."
+    }
+  ],
+  "official_ui_panels": {
+    "panel_definitions": {
+      "A": "cashmere scarf, wool scarf, wool socks anchor",
+      "B": "wool socks anchor, merino socks wording, wool gloves",
+      "C": "wool socks anchor, wool/other blanket, yak blanket",
+      "D": "wool socks anchor, shawl, cashmere blanket"
+    },
+    "DE": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DE&q=Kaschmirschal,Wollschal,Wollsocken",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DE&q=Wollsocken,Merino%20Socken,Wollhandschuhe",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DE&q=Wollsocken,Wolldecke%20%2B%20Wollplaid,Yakdecke%20%2B%20Yakhaardecke",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DE&q=Wollsocken,Wolltuch%20%2B%20Wollstola,Kaschmirdecke"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DE&q=Kaschmirschal,Wollschal,Wollsocken",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DE&q=Wollsocken,Merino%20Socken,Wollhandschuhe",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DE&q=Wollsocken,Wolldecke%20%2B%20Wollplaid,Yakdecke%20%2B%20Yakhaardecke",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DE&q=Wollsocken,Wolltuch%20%2B%20Wollstola,Kaschmirdecke"
+      ]
+    },
+    "NL": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=NL&q=kasjmier%20sjaal,wollen%20sjaal,wollen%20sokken",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=NL&q=wollen%20sokken,merino%20sokken,wollen%20handschoenen",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=NL&q=wollen%20sokken,wollen%20deken%20%2B%20wollen%20plaid,jakwollen%20deken%20%2B%20jakwollen%20plaid",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=NL&q=wollen%20sokken,wollen%20omslagdoek,kasjmier%20deken%20%2B%20kasjmier%20plaid"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=NL&q=kasjmier%20sjaal,wollen%20sjaal,wollen%20sokken",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=NL&q=wollen%20sokken,merino%20sokken,wollen%20handschoenen",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=NL&q=wollen%20sokken,wollen%20deken%20%2B%20wollen%20plaid,jakwollen%20deken%20%2B%20jakwollen%20plaid",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=NL&q=wollen%20sokken,wollen%20omslagdoek,kasjmier%20deken%20%2B%20kasjmier%20plaid"
+      ]
+    },
+    "BE": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=BE&q=kasjmier%20sjaal%20%2B%20%C3%A9charpe%20cachemire,wollen%20sjaal%20%2B%20%C3%A9charpe%20en%20laine,wollen%20sokken%20%2B%20chaussettes%20en%20laine",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=BE&q=wollen%20sokken%20%2B%20chaussettes%20en%20laine,merino%20sokken%20%2B%20chaussettes%20m%C3%A9rinos,wollen%20handschoenen%20%2B%20gants%20en%20laine",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=BE&q=wollen%20sokken%20%2B%20chaussettes%20en%20laine,wollen%20deken%20%2B%20couverture%20en%20laine,jakwollen%20deken%20%2B%20plaid%20en%20laine%20de%20yak",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=BE&q=wollen%20sokken%20%2B%20chaussettes%20en%20laine,wollen%20omslagdoek%20%2B%20ch%C3%A2le%20en%20laine,kasjmier%20deken%20%2B%20plaid%20cachemire"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=BE&q=kasjmier%20sjaal%20%2B%20%C3%A9charpe%20cachemire,wollen%20sjaal%20%2B%20%C3%A9charpe%20en%20laine,wollen%20sokken%20%2B%20chaussettes%20en%20laine",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=BE&q=wollen%20sokken%20%2B%20chaussettes%20en%20laine,merino%20sokken%20%2B%20chaussettes%20m%C3%A9rinos,wollen%20handschoenen%20%2B%20gants%20en%20laine",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=BE&q=wollen%20sokken%20%2B%20chaussettes%20en%20laine,wollen%20deken%20%2B%20couverture%20en%20laine,jakwollen%20deken%20%2B%20plaid%20en%20laine%20de%20yak",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=BE&q=wollen%20sokken%20%2B%20chaussettes%20en%20laine,wollen%20omslagdoek%20%2B%20ch%C3%A2le%20en%20laine,kasjmier%20deken%20%2B%20plaid%20cachemire"
+      ]
+    },
+    "DK": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DK&q=cashmere%20t%C3%B8rkl%C3%A6de%20%2B%20cashmere%20halst%C3%B8rkl%C3%A6de,uldt%C3%B8rkl%C3%A6de%20%2B%20uld%20halst%C3%B8rkl%C3%A6de,uldsokker",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DK&q=uldsokker,merino%20sokker,uldhandsker",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DK&q=uldsokker,uldplaid%20%2B%20uldt%C3%A6ppe,yakuld%20plaid%20%2B%20yakuld%20t%C3%A6ppe",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=DK&q=uldsokker,uldsjal,cashmere%20plaid%20%2B%20kashmir%20plaid"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DK&q=cashmere%20t%C3%B8rkl%C3%A6de%20%2B%20cashmere%20halst%C3%B8rkl%C3%A6de,uldt%C3%B8rkl%C3%A6de%20%2B%20uld%20halst%C3%B8rkl%C3%A6de,uldsokker",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DK&q=uldsokker,merino%20sokker,uldhandsker",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DK&q=uldsokker,uldplaid%20%2B%20uldt%C3%A6ppe,yakuld%20plaid%20%2B%20yakuld%20t%C3%A6ppe",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=DK&q=uldsokker,uldsjal,cashmere%20plaid%20%2B%20kashmir%20plaid"
+      ]
+    },
+    "SE": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=SE&q=kashmirhalsduk%20%2B%20kashmir%20halsduk%20%2B%20cashmere%20halsduk,ullhalsduk%20%2B%20ull%20halsduk%20%2B%20halsduk%20ull,ullsockor%20%2B%20ullstrumpor",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=SE&q=ullsockor%20%2B%20ullstrumpor,merinosockor%20%2B%20merinoull%20sockor,ullhandskar",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=SE&q=ullsockor%20%2B%20ullstrumpor,ullpl%C3%A4d%20%2B%20ullfilt,jakull%20pl%C3%A4d%20%2B%20jakull%20filt",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=SE&q=ullsockor%20%2B%20ullstrumpor,ullsjal,kashmirpl%C3%A4d%20%2B%20kashmir%20filt"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=SE&q=kashmirhalsduk%20%2B%20kashmir%20halsduk%20%2B%20cashmere%20halsduk,ullhalsduk%20%2B%20ull%20halsduk%20%2B%20halsduk%20ull,ullsockor%20%2B%20ullstrumpor",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=SE&q=ullsockor%20%2B%20ullstrumpor,merinosockor%20%2B%20merinoull%20sockor,ullhandskar",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=SE&q=ullsockor%20%2B%20ullstrumpor,ullpl%C3%A4d%20%2B%20ullfilt,jakull%20pl%C3%A4d%20%2B%20jakull%20filt",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=SE&q=ullsockor%20%2B%20ullstrumpor,ullsjal,kashmirpl%C3%A4d%20%2B%20kashmir%20filt"
+      ]
+    },
+    "PL": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=PL&q=szalik%20kaszmirowy,szalik%20we%C5%82niany,skarpety%20we%C5%82niane",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=PL&q=skarpety%20we%C5%82niane,skarpety%20merino%20%2B%20skarpetki%20merino,r%C4%99kawiczki%20we%C5%82niane",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=PL&q=skarpety%20we%C5%82niane,koc%20we%C5%82niany%20%2B%20pled%20we%C5%82niany,koc%20z%20we%C5%82ny%20jaka%20%2B%20pled%20z%20we%C5%82ny%20jaka",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=PL&q=skarpety%20we%C5%82niane,szal%20we%C5%82niany,koc%20kaszmirowy%20%2B%20pled%20kaszmirowy"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=PL&q=szalik%20kaszmirowy,szalik%20we%C5%82niany,skarpety%20we%C5%82niane",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=PL&q=skarpety%20we%C5%82niane,skarpety%20merino%20%2B%20skarpetki%20merino,r%C4%99kawiczki%20we%C5%82niane",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=PL&q=skarpety%20we%C5%82niane,koc%20we%C5%82niany%20%2B%20pled%20we%C5%82niany,koc%20z%20we%C5%82ny%20jaka%20%2B%20pled%20z%20we%C5%82ny%20jaka",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=PL&q=skarpety%20we%C5%82niane,szal%20we%C5%82niany,koc%20kaszmirowy%20%2B%20pled%20kaszmirowy"
+      ]
+    },
+    "FI": {
+      "five_year": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=FI&q=kashmirhuivi%20%2B%20kashmir%20huivi%20%2B%20cashmere%20huivi,villahuivi,villasukat",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=FI&q=villasukat,merinosukat,villak%C3%A4sineet",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=FI&q=villasukat,villahuopa,jakkivillahuopa%20%2B%20jakinvillahuopa",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%205-y&geo=FI&q=villasukat,villashaali,kashmirhuopa"
+      ],
+      "twelve_month": [
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=FI&q=kashmirhuivi%20%2B%20kashmir%20huivi%20%2B%20cashmere%20huivi,villahuivi,villasukat",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=FI&q=villasukat,merinosukat,villak%C3%A4sineet",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=FI&q=villasukat,villahuopa,jakkivillahuopa%20%2B%20jakinvillahuopa",
+        "https://trends.google.com/trends/explore?hl=en-US&date=today%2012-m&geo=FI&q=villasukat,villashaali,kashmirhuopa"
+      ]
+    }
+  },
+  "official_sources": [
+    {
+      "title": "Google Trends Explore",
+      "url": "https://trends.google.com/trends/explore",
+      "accessed": "2026-09-15"
+    },
+    {
+      "title": "FAQ about Google Trends data",
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "accessed": "2026-09-15"
+    },
+    {
+      "title": "Search terms and topics",
+      "url": "https://support.google.com/trends/answer/17309543?hl=en",
+      "accessed": "2026-09-15"
+    },
+    {
+      "title": "Related and rising searches",
+      "url": "https://support.google.com/trends/answer/4355000?hl=en",
+      "accessed": "2026-09-15"
+    },
+    {
+      "title": "Interest by region",
+      "url": "https://support.google.com/trends/answer/4355212?hl=en",
+      "accessed": "2026-09-15"
+    },
+    {
+      "title": "Compare Trends search terms",
+      "url": "https://support.google.com/trends/answer/4359550?hl=en-AU",
+      "accessed": "2026-09-15"
+    },
+    {
+      "title": "Explore features and export",
+      "url": "https://support.google.com/trends/answer/6248105?hl=en",
+      "accessed": "2026-09-15"
+    }
+  ],
+  "limitations": [
+    "Google Trends is sampled and normalized. Each geography/time/query panel is scaled independently so its maximum is 100; the index is not searches per month.",
+    "A zero means the sampled value rounded below the panel's resolution, not proven zero demand.",
+    "Indices from different panels, countries or time windows must not be added or compared as absolute market sizes.",
+    "Low-volume material terms are sensitive to the comparison set: a dominant anchor can cause a small series to round to zero.",
+    "Five-year and twelve-month panels are separately normalized. A larger 12-month average/non-zero share is not automatically year-on-year growth.",
+    "BE bilingual OR panels improve recall but reduce diagnostic precision; NL and FR must be evaluated separately in Keyword Planner and live Ads tests.",
+    "Topics can aggregate languages but may be broader, gender-specific, duplicated or product-specific; Topic and Search term series measure different query universes.",
+    "The last week may be incomplete and is not a standalone signal.",
+    "Related/rising percentages can come from a very small base; Breakout means greater than 5000% growth, not high absolute volume.",
+    "Repeated browser sampling can shift values slightly and can be rate-limited. UI timeouts were recorded as missing rather than zero.",
+    "No Google Sheet cells, filters, formulas or metadata were changed."
+  ],
+  "next_validation_steps": [
+    "Export Google Ads Keyword Planner by country, language and match type for all primary and alternate terms, especially SE/FI cashmere, BE bilingual categories, FI villahuopa and all yak terms.",
+    "Run small exact/phrase live-search tests and record eligible impressions, search-term mix, CTR, CVR and gross-margin contribution by family/language.",
+    "Use Search Console and Merchant Center query data to replace Trends zeros with first-party evidence once the localized site/feed is live.",
+    "Do not allocate budget from Trends alone; combine recurrence/seasonality with absolute volume, margin, shipping and stock cover."
+  ]
+}

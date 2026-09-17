@@ -1,0 +1,94 @@
+[
+  {
+    "id": "WEB-032",
+    "slug": "wolvis_myosotis_02_be",
+    "url": "https://www.wolvis.be/en/products/myosotis-02",
+    "desktop": {
+      "ok": true,
+      "title": "Myosotis 02 — wolvis — a poetic knitwear brand – • wolvis",
+      "finalUrl": "https://www.wolvis.be/en/products/myosotis-02",
+      "dismissed": [],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-032_wolvis_myosotis_02_be_desktop_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-032_wolvis_myosotis_02_be_desktop_full.png"
+    },
+    "mobile": {
+      "ok": true,
+      "title": "Myosotis 02 — wolvis — a poetic knitwear brand – • wolvis",
+      "finalUrl": "https://www.wolvis.be/en/products/myosotis-02",
+      "dismissed": [
+        "Accept"
+      ],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-032_wolvis_myosotis_02_be_mobile_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-032_wolvis_myosotis_02_be_mobile_full.png"
+    }
+  },
+  {
+    "id": "WEB-033",
+    "slug": "les_soeurs_nori_cashmere_be",
+    "url": "https://www.lessoeurs.be/en/les-soeurs-cashmere-scarf-nori-midnight-navy.html",
+    "desktop": {
+      "ok": true,
+      "title": "Один момент…",
+      "finalUrl": "https://www.lessoeurs.be/en/les-soeurs-cashmere-scarf-nori-midnight-navy.html",
+      "dismissed": [],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-033_les_soeurs_nori_cashmere_be_desktop_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-033_les_soeurs_nori_cashmere_be_desktop_full.png"
+    },
+    "mobile": {
+      "ok": true,
+      "title": "Les Soeurs Cashmere Scarf Nori Midnight Navy | Les Soeurs",
+      "finalUrl": "https://www.lessoeurs.be/en/les-soeurs-cashmere-scarf-nori-midnight-navy.html",
+      "dismissed": [
+        "Alles toestaan"
+      ],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-033_les_soeurs_nori_cashmere_be_mobile_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-033_les_soeurs_nori_cashmere_be_mobile_full.png"
+    }
+  },
+  {
+    "id": "WEB-034",
+    "slug": "klippan_knut_throw_se",
+    "url": "https://klippanyllefabrik.se/products/knut?variant=40444757278890",
+    "desktop": {
+      "ok": true,
+      "title": "Knut – Klippan Yllefabrik",
+      "finalUrl": "https://klippanyllefabrik.se/products/knut?variant=40444757278890",
+      "dismissed": [],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-034_klippan_knut_throw_se_desktop_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-034_klippan_knut_throw_se_desktop_full.png"
+    },
+    "mobile": {
+      "ok": true,
+      "title": "Knut – Klippan Yllefabrik",
+      "finalUrl": "https://klippanyllefabrik.se/products/knut?variant=40444757278890",
+      "dismissed": [],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-034_klippan_knut_throw_se_mobile_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-034_klippan_knut_throw_se_mobile_full.png"
+    }
+  },
+  {
+    "id": "WEB-035",
+    "slug": "satila_elis_scarf_se",
+    "url": "https://satila.com/se/dam/elis-scarf-soft-yellow",
+    "desktop": {
+      "ok": true,
+      "title": "Elis Scarf | Ribbstickad Halsduk i Merinoull - Sätila of Sweden",
+      "finalUrl": "https://satila.com/se/dam/elis-scarf-soft-yellow",
+      "dismissed": [
+        "Allow all"
+      ],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-035_satila_elis_scarf_se_desktop_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-035_satila_elis_scarf_se_desktop_full.png"
+    },
+    "mobile": {
+      "ok": true,
+      "title": "Elis Scarf | Ribbstickad Halsduk i Merinoull - Sätila of Sweden",
+      "finalUrl": "https://satila.com/se/dam/elis-scarf-soft-yellow",
+      "dismissed": [
+        "Allow all"
+      ],
+      "topPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-035_satila_elis_scarf_se_mobile_top.png",
+      "fullPath": "research_assets/reference_screenshots/sites_priority/be_se/WEB-035_satila_elis_scarf_se_mobile_full.png"
+    }
+  }
+]
